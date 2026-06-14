@@ -51,7 +51,37 @@ url:
 
 ## Contradictions / Updates
 
+## Notes / Marginalia
+
 ## Open Questions
+```
+
+## Question
+
+```markdown
+---
+type: question
+status: draft
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags:
+  - question
+sources: []
+---
+
+# Question
+
+## Short Answer
+
+## Why This Question Matters
+
+## Current Answer
+
+## Evidence / Sources
+
+## Important Caveats
+
+## Linked Pages
 ```
 
 ## Concept

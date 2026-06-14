@@ -57,14 +57,27 @@
 
 1. 원자료 위치와 형식을 확인한다.
 2. 자료를 읽고 bibliographic metadata를 추출한다.
-3. `wiki/sources/`에 source note를 만들거나 갱신한다.
-4. 논문이면 `wiki/papers/`에 paper note를 만든다.
-5. 새 개념, 방법, 데이터셋, 업체, 제품, 저자/기관이 중요하면 해당 페이지를 만들거나 갱신한다.
-6. 기존 페이지와 충돌하거나 보강되는 부분을 반영한다.
-7. `wiki/index.md`를 갱신한다.
-8. `wiki/log.md`에 append-only 로그를 남긴다.
+3. PDF annotation, 하이라이트, margin note, 사용자가 원자료에 남긴 질문/메모가 있으면 별도로 확인한다.
+4. 필기나 본문에서 중요한 질문을 판단해 `Open Questions`에 남기고, 재사용 가치가 높으면 `wiki/questions/` 또는 `wiki/syntheses/`에 승격한다.
+5. `wiki/sources/`에 source note를 만들거나 갱신한다. 필기/annotation 확인 여부도 source note에 기록한다.
+6. 논문이면 `wiki/papers/`에 paper note를 만든다.
+7. 새 개념, 방법, 데이터셋, 업체, 제품, 저자/기관이 중요하면 해당 페이지를 만들거나 갱신한다.
+8. 기존 페이지와 충돌하거나 보강되는 부분을 반영한다.
+9. `wiki/index.md`를 갱신한다.
+10. `wiki/log.md`에 append-only 로그를 남긴다.
 
 자료 하나가 여러 페이지를 건드리는 것은 정상이다. 단, 원자료 내용 이상으로 과감한 결론을 내릴 때는 추론임을 표시한다.
+
+### Notes / Marginalia Ingest
+
+논문 PDF나 원자료에 사용자가 남긴 하이라이트, 주석, 손글씨, margin note, 질문은 사용자의 사고 과정이므로 별도 가치가 있다.
+
+1. 가능한 경우 PDF annotation을 확인하고, text note/highlight/ink note가 있는지 source note에 기록한다.
+2. 필기 내용은 원문 주장과 구분한다. 필기는 사용자 가설 또는 질문으로 취급하고, 논문이 직접 주장한 것처럼 쓰지 않는다.
+3. 중요한 질문의 기준은 반복 재사용 가능성, 연구/구현 의사결정에 미치는 영향, 여러 자료를 연결하는 힘, 검증 가능성이다.
+4. 질문이 한 논문 안의 열린 쟁점이면 paper page의 `Open Questions`에 둔다.
+5. 여러 논문이나 프로젝트 판단에 반복 사용될 질문이면 `wiki/questions/YYYY-MM-DD - Question Slug.md`로 승격한다.
+6. 필기에서 나온 강한 주장이나 결론은 원자료 또는 primary source로 확인하거나 `검증 필요:`를 붙인다.
 
 ### Chat Ingest
 

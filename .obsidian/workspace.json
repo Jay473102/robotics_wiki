@@ -119,11 +119,54 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ⠼ Robotics_wiki"
+                  "title": "터미널: Robotics_wiki"
+                }
+              },
+              {
+                "id": "7285b40a367a6f64",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "G:\\Obsidian Vault\\Robotics_wiki",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "environment": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "win32IntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: cmd"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -138,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
+                "file": "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-15 - LG CNS PhysicalWorks"
+              "title": "2026-06-15 - How Should VLA Models Bridge Intent and Action"
             }
           }
         ]
@@ -320,10 +363,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c1757d0650400dd",
+  "active": "27f2ae9f2d472161",
   "lastOpenFiles": [
-    "wiki/_meta/Chat Source Workflow.md",
+    "wiki/questions/2026-06-15 - What Blocks General Robotic Cloth Manipulation.md",
+    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
+    "raw/papers/260329844v1 1_260615_004135.pdf",
     "raw/papers/frobt-13-1752914.pdf",
+    "raw/papers/robotics-10-00083-v3.pdf",
+    "wiki/concepts/Latent World Modeling.md",
+    "wiki/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.md",
+    "wiki/sources/2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling.md",
+    "wiki/methods/Cloth Manipulation Learning Paradigms.md",
+    "wiki/concepts/Robotic Cloth Manipulation.md",
+    "wiki/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.md",
+    "wiki/sources/2026-02-06 - Deep Learning-Based Robotic Cloth Manipulation Review.md",
+    "무제.md",
+    "raw/README.md",
+    "raw/papers/2302.08152v2.pdf",
+    "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
+    "wiki/_meta/Chat Source Workflow.md",
     "raw/papers/미확인 166770.crdownload",
     "Home.md",
     "AGENTS.md",
@@ -337,26 +395,10 @@
     "wiki/sources/2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
     "wiki/sources/2023-07-07 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.md",
     "wiki/sources/2026-06-15 - LG CNS PhysicalWorks Deep Research Report.md",
-    "wiki/sources/2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note.md",
-    "wiki/papers/2019 - Automatic Posterior Transformation for Likelihood-Free Inference.md",
-    "wiki/papers/2020 - The Frontier of Simulation-Based Inference.md",
-    "wiki/papers/2021 - A Differentiable Newton-Euler Algorithm for Real-World Robotics.md",
-    "wiki/papers/2022 - Neural Posterior Domain Randomization.md",
-    "wiki/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.md",
-    "wiki/papers/Unverified - Raviola Dynamic Parameter Identification Reference.md",
-    "wiki/concepts/Robot Fleet Orchestration.md",
-    "wiki/concepts/Robot Foundation Models.md",
-    "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
-    "wiki/concepts/Object Singulation.md",
-    "wiki/methods/Tangled-Prone Bin Picking.md",
-    "raw/notes/충분 가진이 어려운 산업용 로봇의 End-effector 관성 및 마찰 파라미터 추정 기반 고장진단 방법론.md",
-    "raw/papers/robotics-10-00083-v3.pdf",
     "raw/papers/미확인 379553.crdownload",
     "raw/chats",
-    "raw/papers/2302.08152v2.pdf",
     "raw/papers/미확인 512032.crdownload",
     "wiki/questions",
-    "wiki/syntheses",
-    "wiki/benchmarks"
+    "wiki/syntheses"
   ]
 }

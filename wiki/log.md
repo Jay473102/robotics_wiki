@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-15] ingest | DIAL VLA and robotic cloth manipulation review
+
+- Input: `raw/papers/260329844v1 1_260615_004135.pdf`, `raw/papers/frobt-13-1752914.pdf`
+- Changed: Added source notes and paper pages for DIAL and the Frontiers robotic cloth manipulation systematic review. Added concept/method pages for latent world modeling, robotic cloth manipulation, and cloth manipulation learning paradigms. Promoted reusable research questions to `wiki/questions/`. Updated VLA and Physical AI concept pages, index, workflow, ontology, templates, and AGENTS.md.
+- Notes: PDF annotation extraction found only link annotations and no user highlight/text/ink notes. Important questions were selected from explicit paper research questions and future-work/discussion sections. The ingest policy now requires notes/marginalia checks and question promotion during paper ingest.
+
 ## [2026-06-15] schema | Chat source workflow
 
 - Input: User requested an operating plan for storing LLM conversation records under `raw/chats/`.

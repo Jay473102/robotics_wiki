@@ -8,6 +8,7 @@ tags:
   - robotics
 sources:
   - raw/notes/deep-research-report.md
+  - raw/papers/frobt-13-1752914.pdf
 ---
 
 # Physical AI
@@ -27,8 +28,10 @@ Physical AI는 연구 논문뿐 아니라 하드웨어, 제조, 운영 데이터
 - [[Robot Foundation Models]]
 - [[Robot Fleet Orchestration]]
 - [[LG CNS PhysicalWorks]]
+- [[Robotic Cloth Manipulation]]
 
 ## Open Questions
 
 - Physical AI에서 foundation model의 스케일링 법칙은 어떤 데이터와 embodiment에 의해 제한되는가?
 - 실제 상용화의 병목은 모델 성능, 데이터, 하드웨어 비용, 안전, 운영 중 어디에 있는가?
+- Deformable object manipulation처럼 simulator fidelity와 metric 표준화가 약한 영역에서 Physical AI의 일반화 성능을 어떻게 평가해야 하는가?

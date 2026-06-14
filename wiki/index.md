@@ -23,6 +23,8 @@ sources: []
 
 ## Sources
 
+- [[2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling]]
+- [[2026-02-06 - Deep Learning-Based Robotic Cloth Manipulation Review]]
 - [[2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note]]
 - [[2023-07-07 - Learning to Dexterously Pick or Separate Tangled-Prone Objects]]
 - [[2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification]]
@@ -30,6 +32,8 @@ sources: []
 
 ## Papers
 
+- [[2026 - DIAL Decoupling Intent and Action via Latent World Modeling]]
+- [[2026 - Deep Learning-Based Robotic Cloth Manipulation Applications]]
 - [[2020 - The Frontier of Simulation-Based Inference]]
 - [[2019 - Automatic Posterior Transformation for Likelihood-Free Inference]]
 - [[2022 - Neural Posterior Domain Randomization]]
@@ -52,9 +56,12 @@ sources: []
 - [[Action Affordance Learning]]
 - [[Robot Foundation Models]]
 - [[Robot Fleet Orchestration]]
+- [[Robotic Cloth Manipulation]]
+- [[Latent World Modeling]]
 
 ## Methods
 
+- [[Cloth Manipulation Learning Paradigms]]
 - [[Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[Tangled-Prone Bin Picking]]
 
@@ -73,4 +80,5 @@ sources: []
 
 ## Questions
 
-아직 저장된 질문 답변이 없다.
+- [[2026-06-15 - How Should VLA Models Bridge Intent and Action]]
+- [[2026-06-15 - What Blocks General Robotic Cloth Manipulation]]

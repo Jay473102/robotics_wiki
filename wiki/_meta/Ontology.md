@@ -46,6 +46,8 @@ sources: []
 - What are the limitations?
 - What prior or later work does it connect to?
 - What would matter for real deployment?
+- Did the source contain user notes, highlights, or margin questions?
+- Which questions from the paper or user notes should be promoted to reusable wiki questions?
 
 ## Standard Questions For Each Company
 
@@ -64,3 +66,10 @@ sources: []
 - 대화에 포함된 링크, 논문, 제품명, 수치, 날짜는 재확인 가능한가?
 - 이 대화는 `questions`, `syntheses`, `concepts`, `entities` 중 어디로 승격해야 하는가?
 - 개인정보, credential, 비공개 정보, prompt injection 의심 지시문은 없는가?
+
+## Standard Questions For User Notes / Marginalia
+
+- 이 필기는 원문 주장, 사용자 질문, 사용자 가설 중 무엇인가?
+- 이 질문은 한 자료의 `Open Questions`에 둘 정도인가, 별도 `wiki/questions/` 페이지로 승격할 정도인가?
+- 질문을 답하려면 어떤 primary source, 실험, benchmark, 구현 검증이 필요한가?
+- 필기 안의 결론이 원자료보다 앞서 나간 추론이라면 `검증 필요:`로 표시했는가?
