@@ -199,6 +199,12 @@ chat_date:
 
 ## TL;DR
 
+## Important Questions
+
+| Question | Why it matters | Status | Linked page |
+|---|---|---|---|
+|  |  | source-only / open-question / promoted |  |
+
 ## Reusable Answer
 
 ## Claims To Verify

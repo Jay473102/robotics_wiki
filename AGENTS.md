@@ -144,3 +144,15 @@ Chat source lint에서는 특히 다음을 확인한다.
 ```
 
 `kind` examples: `ingest`, `query`, `lint`, `schema`, `maintenance`.
+
+## Additional Chat Question Rule
+
+`raw/chats/` ingest에서는 답변 요약보다 질문 보존을 우선한다. Chat source note에는 반드시 `Important Questions` 섹션을 두고, 사용자가 직접 물은 질문, 대화 중 파생된 후속 질문, 답변 검증을 위해 필요한 질문을 분리해 기록한다.
+
+각 질문에는 다음 상태 중 하나를 붙인다.
+
+- `source-only`: 해당 chat source note 안에만 보존한다.
+- `open-question`: 관련 paper/concept/method/entity page의 `Open Questions`에도 연결한다.
+- `promoted`: `wiki/questions/YYYY-MM-DD - Question Slug.md`로 별도 페이지를 만든다.
+
+여러 chat에서 반복되거나, 연구/구현 의사결정에 영향을 주거나, 여러 자료를 연결하거나, primary source 검증이 가능한 질문은 `promoted` 후보로 본다. 답변이 틀렸거나 미완성이라도 질문 자체가 좋으면 보존하고, 답이 부족하면 `검증 필요:` 또는 `열린 질문:`을 남긴다.

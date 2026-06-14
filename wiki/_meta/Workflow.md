@@ -67,6 +67,17 @@ sources: []
 - API key, token, 계정, 고객명, 비공개 코드, 개인정보가 보이면 wiki 본문에 복사하지 않는다.
 - `turn4view0` 같은 내부 citation은 durable source가 아니므로 source note에 "재현 불가 citation"으로 기록한다.
 
+## Additional Chat Question Rule
+
+Chat ingest에서는 질문을 답변 요약 안에 묻어두지 않는다. 모든 chat source note에 `Important Questions` 섹션을 만들고 다음을 기록한다.
+
+- 사용자가 직접 던진 질문.
+- 대화 중 새로 생긴 후속 질문.
+- LLM 답변을 검증하기 위해 필요한 질문.
+- 여러 자료를 비교하거나 앞으로 반복해서 다시 물을 가능성이 높은 질문.
+
+각 질문은 `source-only`, `open-question`, `promoted` 중 하나로 상태 표시한다. 반복 출현하거나 연구/구현 의사결정에 영향을 주는 질문은 답이 미완성이라도 `wiki/questions/`에 승격하고, `Current Answer`에는 `검증 필요:` 또는 `열린 질문:`을 남긴다.
+
 ## Query
 
 질문에 답할 때는 먼저 `wiki/index.md`를 읽어 관련 페이지 후보를 찾는다. 필요한 위키 페이지를 읽고, 답변에 필요하면 원자료까지 확인한다. 재사용 가치가 높은 답변은 사용자가 "답변만" 원하지 않는 한 `wiki/questions/` 또는 `wiki/syntheses/`에 저장할 수 있다.

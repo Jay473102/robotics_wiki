@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-15] schema | Chat important questions
+
+- Input: User requested important questions from `raw/chats/` conversations be recorded carefully.
+- Changed: Updated `AGENTS.md`, `wiki/_meta/Workflow.md`, `wiki/_meta/Chat Source Workflow.md`, and `wiki/_meta/Templates.md` to require an `Important Questions` section for chat source notes, with question status labels and promotion rules.
+- Notes: Chat questions are now preserved separately from answer summaries, even when the answer is incomplete or requires primary-source verification.
+
 ## [2026-06-15] ingest | Amortized NeuralSDF-mesh collision detection
 
 - Input: `raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf`

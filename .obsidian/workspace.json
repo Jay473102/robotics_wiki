@@ -162,7 +162,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: 선택 Robotics_wiki"
+                  "title": "터미널: Robotics_wiki"
                 }
               }
             ],
@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Robot Dynamics Parameter Identification.md",
+                "file": "wiki/sources/2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Robot Dynamics Parameter Identification"
+              "title": "2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection"
             }
           }
         ]
@@ -364,18 +364,21 @@
   },
   "active": "7285b40a367a6f64",
   "lastOpenFiles": [
+    "wiki/sources/2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection.md",
+    "raw/chats/내용 파악 요약.pdf",
+    "raw/chats/미확인 494020.crdownload",
+    "wiki/sources/2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note.md",
+    "wiki/questions/2026-06-15 - What Blocks General Robotic Cloth Manipulation.md",
+    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
     "wiki/methods/Amortized NeuralSDF-Mesh Collision Detection.md",
     "wiki/concepts/NeuralSDF Collision Detection.md",
     "wiki/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.md",
-    "wiki/sources/2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection.md",
     "wiki/concepts/Robot Dynamics Parameter Identification.md",
     "raw/lecutre_note",
     "raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf",
     "raw/papers/미확인 465908.crdownload",
     "wiki/concepts/Temperature-Friction Baseline.md",
     "wiki/sources/2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
-    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
-    "wiki/questions/2026-06-15 - What Blocks General Robotic Cloth Manipulation.md",
     "raw/papers/260329844v1 1_260615_004135.pdf",
     "raw/papers/frobt-13-1752914.pdf",
     "raw/papers/robotics-10-00083-v3.pdf",
@@ -395,10 +398,6 @@
     "Home.md",
     "AGENTS.md",
     "wiki/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
-    "wiki/concepts/Neural Posterior Estimation.md",
-    "wiki/concepts/Embodied AI.md",
-    "wiki/concepts/Differentiable Dynamics.md",
-    "raw/papers/미확인 379553.crdownload",
-    "raw/chats"
+    "wiki/concepts/Neural Posterior Estimation.md"
   ]
 }
