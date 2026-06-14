@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-15] ingest | Amortized NeuralSDF-mesh collision detection
+
+- Input: `raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf`
+- Changed: Added source note and paper page for "Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation". Added concept page for NeuralSDF collision detection and method page for amortized NeuralSDF-mesh collision detection. Updated `wiki/index.md`.
+- Notes: PDF metadata date is 2026-03-06. Venue/arXiv/DOI were not visible in the PDF and remain marked for verification. Annotation marker search found no user highlight/text/ink notes.
+
 ## [2026-06-15] ingest | DIAL VLA and robotic cloth manipulation review
 
 - Input: `raw/papers/260329844v1 1_260615_004135.pdf`, `raw/papers/frobt-13-1752914.pdf`

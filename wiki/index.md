@@ -23,6 +23,7 @@ sources: []
 
 ## Sources
 
+- [[2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection]]
 - [[2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling]]
 - [[2026-02-06 - Deep Learning-Based Robotic Cloth Manipulation Review]]
 - [[2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note]]
@@ -32,6 +33,7 @@ sources: []
 
 ## Papers
 
+- [[2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation]]
 - [[2026 - DIAL Decoupling Intent and Action via Latent World Modeling]]
 - [[2026 - Deep Learning-Based Robotic Cloth Manipulation Applications]]
 - [[2020 - The Frontier of Simulation-Based Inference]]
@@ -58,9 +60,11 @@ sources: []
 - [[Robot Fleet Orchestration]]
 - [[Robotic Cloth Manipulation]]
 - [[Latent World Modeling]]
+- [[NeuralSDF Collision Detection]]
 
 ## Methods
 
+- [[Amortized NeuralSDF-Mesh Collision Detection]]
 - [[Cloth Manipulation Learning Paradigms]]
 - [[Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[Tangled-Prone Bin Picking]]
