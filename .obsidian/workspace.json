@@ -1,0 +1,362 @@
+{
+  "main": {
+    "id": "9d367def0d997ad3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9add99c95784f8be",
+        "type": "split",
+        "children": [
+          {
+            "id": "5a8a3ad143a4f2d9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9cdcf8d09bbd551e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "환영합니다!.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "환영합니다!"
+                }
+              },
+              {
+                "id": "d800600af066707b",
+                "type": "leaf",
+                "state": {
+                  "type": "terminal:documentation",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "terminal:documentation"
+                }
+              },
+              {
+                "id": "3a3118a0474237eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/concepts/Neural Posterior Estimation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Neural Posterior Estimation"
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "28c2c7964b9ff133",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5da5d2064121e737",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": null,
+                      "focus": false,
+                      "profile": {
+                        "type": "invalid"
+                      },
+                      "profileSourceId": null,
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: 유효하지 않음"
+                }
+              },
+              {
+                "id": "18e6896f4765376e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "G:\\Obsidian Vault\\Robotics_wiki",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "environment": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "win32IntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: ⠼ Robotics_wiki"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "6f991b37d39c888c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a62703570c02c1cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-15 - LG CNS PhysicalWorks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ce7b877e988514c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff6f406e6e394e6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c1757d0650400dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "f223c8c0256e004e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "a7b1b8c58eb14863",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "92fed58d0f968968",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5ebe6c8a0c097ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "778f9f5086df1dd8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/syntheses/2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis 의 백링크"
+            }
+          },
+          {
+            "id": "d9e0feb905fa4593",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/syntheses/2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis 의 나가는 링크"
+            }
+          },
+          {
+            "id": "d4e5c2ed02befa3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2512fe2421cebbde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "20442bc893510c28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/syntheses/2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis 의 개요"
+            }
+          },
+          {
+            "id": "27f2ae9f2d472161",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3c1757d0650400dd",
+  "lastOpenFiles": [
+    "wiki/_meta/Chat Source Workflow.md",
+    "raw/papers/frobt-13-1752914.pdf",
+    "raw/papers/미확인 166770.crdownload",
+    "Home.md",
+    "AGENTS.md",
+    "wiki/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
+    "wiki/concepts/Robot Dynamics Parameter Identification.md",
+    "wiki/concepts/Neural Posterior Estimation.md",
+    "wiki/concepts/Embodied AI.md",
+    "wiki/concepts/Differentiable Dynamics.md",
+    "wiki/concepts/Action Affordance Learning.md",
+    "wiki/entities/LG CNS PhysicalWorks.md",
+    "wiki/sources/2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
+    "wiki/sources/2023-07-07 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.md",
+    "wiki/sources/2026-06-15 - LG CNS PhysicalWorks Deep Research Report.md",
+    "wiki/sources/2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note.md",
+    "wiki/papers/2019 - Automatic Posterior Transformation for Likelihood-Free Inference.md",
+    "wiki/papers/2020 - The Frontier of Simulation-Based Inference.md",
+    "wiki/papers/2021 - A Differentiable Newton-Euler Algorithm for Real-World Robotics.md",
+    "wiki/papers/2022 - Neural Posterior Domain Randomization.md",
+    "wiki/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.md",
+    "wiki/papers/Unverified - Raviola Dynamic Parameter Identification Reference.md",
+    "wiki/concepts/Robot Fleet Orchestration.md",
+    "wiki/concepts/Robot Foundation Models.md",
+    "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
+    "wiki/concepts/Object Singulation.md",
+    "wiki/methods/Tangled-Prone Bin Picking.md",
+    "raw/notes/충분 가진이 어려운 산업용 로봇의 End-effector 관성 및 마찰 파라미터 추정 기반 고장진단 방법론.md",
+    "raw/papers/robotics-10-00083-v3.pdf",
+    "raw/papers/미확인 379553.crdownload",
+    "raw/chats",
+    "raw/papers/2302.08152v2.pdf",
+    "raw/papers/미확인 512032.crdownload",
+    "wiki/questions",
+    "wiki/syntheses",
+    "wiki/benchmarks"
+  ]
+}
