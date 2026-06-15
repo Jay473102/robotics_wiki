@@ -10,14 +10,14 @@ tags:
   - neural-sdf
   - contact-simulation
 sources:
-  - raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf
+  - raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf
 ---
 
 # Amortized NeuralSDF-Mesh Collision Detection Source
 
 ## Source
 
-- Raw file: `raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf`
+- Raw file: `raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf`
 - Title: "Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation"
 - Authors: Jinhee Yun, Jeongmin Lee, Sunkyung Park, Dongjun Lee
 - Affiliation: Seoul National University; Holiday Robotics

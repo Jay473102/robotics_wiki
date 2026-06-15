@@ -8,7 +8,7 @@ tags:
   - cloth-manipulation
   - physical-ai
 sources:
-  - raw/papers/frobt-13-1752914.pdf
+  - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
 ---
 
 # What Blocks General Robotic Cloth Manipulation?

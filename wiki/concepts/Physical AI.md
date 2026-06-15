@@ -8,7 +8,7 @@ tags:
   - robotics
 sources:
   - raw/notes/deep-research-report.md
-  - raw/papers/frobt-13-1752914.pdf
+  - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
 ---
 
 # Physical AI

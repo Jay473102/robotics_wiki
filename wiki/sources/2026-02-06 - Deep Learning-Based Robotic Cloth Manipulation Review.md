@@ -10,14 +10,14 @@ tags:
   - manipulation
   - physical-ai
 sources:
-  - raw/papers/frobt-13-1752914.pdf
+  - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
 ---
 
 # Deep Learning-Based Robotic Cloth Manipulation Review Source
 
 ## Source
 
-- Raw file: `raw/papers/frobt-13-1752914.pdf`
+- Raw file: `raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf`
 - Title: "Deep learning-based robotic cloth manipulation applications: systematic review, challenges and opportunities for physical AI"
 - Authors: Ningquan Gu, Mitsuhiro Hayashibe, Kyo Kutsuzawa, Hui Yu
 - Venue: Frontiers in Robotics and AI 13:1752914

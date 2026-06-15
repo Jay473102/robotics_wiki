@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-16] maintenance | Raw paper filename alignment
+
+- Input: User requested `raw/papers/` filenames match `wiki/papers/` paper note names.
+- Changed: Renamed five PDF files under `raw/papers/` to the corresponding `wiki/papers/` basenames and updated wiki source references outside the append-only historical log.
+- Notes: Historical `wiki/log.md` entries still preserve the original input filenames. Current source links now point to the renamed raw PDF files.
+
 ## [2026-06-15] schema | Chat important questions
 
 - Input: User requested important questions from `raw/chats/` conversations be recorded carefully.

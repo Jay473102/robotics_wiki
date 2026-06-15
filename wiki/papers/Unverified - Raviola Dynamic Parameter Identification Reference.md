@@ -22,7 +22,7 @@ url:
 
 ## Status
 
-이전 ingest에서 미검증으로 남겨둔 reference다. 이후 `raw/papers/robotics-10-00083-v3.pdf`가 추가되어 [[2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification]]로 확인되었다. 앞으로는 새 paper page를 primary reference로 사용한다.
+이전 ingest에서 미검증으로 남겨둔 reference다. 이후 `raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf`가 추가되어 [[2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification]]로 확인되었다. 앞으로는 새 paper page를 primary reference로 사용한다.
 
 ## Claims In The Note
 

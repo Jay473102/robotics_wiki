@@ -10,7 +10,7 @@ tags:
   - self-supervised-learning
   - sim-to-real
 sources:
-  - raw/papers/2302.08152v2.pdf
+  - raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf
 title: Learning to Dexterously Pick or Separate Tangled-Prone Objects for Industrial Bin Picking
 authors:
   - Xinyi Zhang

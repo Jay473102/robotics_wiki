@@ -9,7 +9,7 @@ tags:
   - neural-sdf
   - contact-simulation
 sources:
-  - raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf
+  - raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf
 ---
 
 # Amortized NeuralSDF-Mesh Collision Detection

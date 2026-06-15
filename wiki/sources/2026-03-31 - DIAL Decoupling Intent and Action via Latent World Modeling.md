@@ -10,14 +10,14 @@ tags:
   - latent-world-modeling
   - robot-foundation-models
 sources:
-  - raw/papers/260329844v1 1_260615_004135.pdf
+  - raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf
 ---
 
 # DIAL Source
 
 ## Source
 
-- Raw file: `raw/papers/260329844v1 1_260615_004135.pdf`
+- Raw file: `raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf`
 - Title: "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA"
 - Authors: Yi Chen, Yuying Ge, Hui Zhou, Mingyu Ding, Yixiao Ge, Xihui Liu
 - arXiv: `2603.29844v1 [cs.RO]`

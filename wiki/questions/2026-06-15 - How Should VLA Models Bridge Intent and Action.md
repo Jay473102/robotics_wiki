@@ -9,7 +9,7 @@ tags:
   - robot-foundation-models
   - world-modeling
 sources:
-  - raw/papers/260329844v1 1_260615_004135.pdf
+  - raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf
 ---
 
 # How Should VLA Models Bridge Intent and Action?

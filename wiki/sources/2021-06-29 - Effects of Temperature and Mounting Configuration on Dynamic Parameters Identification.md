@@ -10,14 +10,14 @@ tags:
   - parameter-identification
   - friction
 sources:
-  - raw/papers/robotics-10-00083-v3.pdf
+  - raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf
 ---
 
 # Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification Source
 
 ## Source
 
-- Raw file: `raw/papers/robotics-10-00083-v3.pdf`
+- Raw file: `raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf`
 - Title: "Effects of Temperature and Mounting Configuration on the Dynamic Parameters Identification of Industrial Robots"
 - Authors: Andrea Raviola, Roberto Guida, Andrea De Martin, Stefano Pastorelli, Stefano Mauro, Massimo Sorli
 - Venue: Robotics 2021, 10, 83

@@ -10,7 +10,7 @@ tags:
   - survey
   - sim-to-real
 sources:
-  - raw/papers/frobt-13-1752914.pdf
+  - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
 title: Deep learning-based robotic cloth manipulation applications: systematic review, challenges and opportunities for physical AI
 authors:
   - Ningquan Gu

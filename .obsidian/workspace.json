@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection.md",
+                "file": "wiki/concepts/Robot Foundation Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection"
+              "title": "Robot Foundation Models"
             }
           }
         ]
@@ -324,12 +324,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "wiki/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation 의 개요"
             }
           },
           {
@@ -362,42 +363,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7285b40a367a6f64",
+  "active": "a62703570c02c1cb",
   "lastOpenFiles": [
+    "wiki/concepts/NeuralSDF Collision Detection.md",
+    "AGENTS.md",
     "wiki/sources/2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection.md",
+    "wiki/papers/Unverified - Raviola Dynamic Parameter Identification Reference.md",
+    "wiki/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.md",
+    "wiki/questions/2026-06-15 - What Blocks General Robotic Cloth Manipulation.md",
+    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
+    "raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf",
+    "raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf",
+    "raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf",
+    "raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf",
+    "raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf",
+    "wiki/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.md",
+    "wiki/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.md",
     "raw/chats/내용 파악 요약.pdf",
     "raw/chats/미확인 494020.crdownload",
     "wiki/sources/2026-06-15 - Small-Motion End-Effector Inertia and Friction Fault Diagnosis Note.md",
-    "wiki/questions/2026-06-15 - What Blocks General Robotic Cloth Manipulation.md",
-    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
     "wiki/methods/Amortized NeuralSDF-Mesh Collision Detection.md",
-    "wiki/concepts/NeuralSDF Collision Detection.md",
-    "wiki/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.md",
     "wiki/concepts/Robot Dynamics Parameter Identification.md",
     "raw/lecutre_note",
     "raw/papers/0c0760_a300ee12f6054b399ed0e4b4af409ca6.pdf",
     "raw/papers/미확인 465908.crdownload",
     "wiki/concepts/Temperature-Friction Baseline.md",
     "wiki/sources/2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
-    "raw/papers/260329844v1 1_260615_004135.pdf",
-    "raw/papers/frobt-13-1752914.pdf",
-    "raw/papers/robotics-10-00083-v3.pdf",
     "wiki/concepts/Latent World Modeling.md",
-    "wiki/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.md",
     "wiki/sources/2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling.md",
     "wiki/methods/Cloth Manipulation Learning Paradigms.md",
     "wiki/concepts/Robotic Cloth Manipulation.md",
-    "wiki/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.md",
     "wiki/sources/2026-02-06 - Deep Learning-Based Robotic Cloth Manipulation Review.md",
     "무제.md",
     "raw/README.md",
-    "raw/papers/2302.08152v2.pdf",
     "wiki/syntheses/2026-06-15 - LG CNS PhysicalWorks.md",
     "wiki/_meta/Chat Source Workflow.md",
-    "raw/papers/미확인 166770.crdownload",
     "Home.md",
-    "AGENTS.md",
-    "wiki/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md",
-    "wiki/concepts/Neural Posterior Estimation.md"
+    "wiki/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.md"
   ]
 }

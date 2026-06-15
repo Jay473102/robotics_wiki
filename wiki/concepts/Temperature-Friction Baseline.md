@@ -9,7 +9,7 @@ tags:
   - fault-diagnosis
 sources:
   - raw/notes/충분 가진이 어려운 산업용 로봇의 End-effector 관성 및 마찰 파라미터 추정 기반 고장진단 방법론.md
-  - raw/papers/robotics-10-00083-v3.pdf
+  - raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf
 ---
 
 # Temperature-Friction Baseline

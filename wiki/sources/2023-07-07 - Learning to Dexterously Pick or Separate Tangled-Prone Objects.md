@@ -9,14 +9,14 @@ tags:
   - bin-picking
   - manipulation
 sources:
-  - raw/papers/2302.08152v2.pdf
+  - raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf
 ---
 
 # Learning to Dexterously Pick or Separate Tangled-Prone Objects Source
 
 ## Source
 
-- Raw file: `raw/papers/2302.08152v2.pdf`
+- Raw file: `raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf`
 - Title: "Learning to Dexterously Pick or Separate Tangled-Prone Objects for Industrial Bin Picking"
 - Authors: Xinyi Zhang, Yukiyasu Domae, Weiwei Wan, Kensuke Harada
 - arXiv: `2302.08152v2 [cs.RO]`

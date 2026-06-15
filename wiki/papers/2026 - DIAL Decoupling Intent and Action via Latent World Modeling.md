@@ -10,7 +10,7 @@ tags:
   - humanoid
   - imitation-learning
 sources:
-  - raw/papers/260329844v1 1_260615_004135.pdf
+  - raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf
 title: DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 authors:
   - Yi Chen

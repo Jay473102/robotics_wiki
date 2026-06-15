@@ -10,7 +10,7 @@ tags:
   - temperature
   - collaborative-robots
 sources:
-  - raw/papers/robotics-10-00083-v3.pdf
+  - raw/papers/2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification.pdf
 title: Effects of Temperature and Mounting Configuration on the Dynamic Parameters Identification of Industrial Robots
 authors:
   - Andrea Raviola

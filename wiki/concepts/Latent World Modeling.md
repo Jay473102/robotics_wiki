@@ -8,7 +8,7 @@ tags:
   - vla
   - robot-foundation-models
 sources:
-  - raw/papers/260329844v1 1_260615_004135.pdf
+  - raw/papers/2026 - DIAL Decoupling Intent and Action via Latent World Modeling.pdf
 ---
 
 # Latent World Modeling

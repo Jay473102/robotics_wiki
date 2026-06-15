@@ -8,7 +8,7 @@ tags:
   - manipulation
   - object-singulation
 sources:
-  - raw/papers/2302.08152v2.pdf
+  - raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf
 ---
 
 # Tangled-Prone Bin Picking
