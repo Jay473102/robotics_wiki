@@ -23,6 +23,7 @@ sources: []
 
 ## Sources
 
+- [[2026-05-07 - TE-SDF Tetra-Encoded Signed Distance Field]]
 - [[2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection]]
 - [[2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling]]
 - [[2026-02-06 - Deep Learning-Based Robotic Cloth Manipulation Review]]
@@ -33,6 +34,7 @@ sources: []
 
 ## Papers
 
+- [[2026 - TE-SDF Tetra-Encoded Signed Distance Field]]
 - [[2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation]]
 - [[2026 - DIAL Decoupling Intent and Action via Latent World Modeling]]
 - [[2026 - Deep Learning-Based Robotic Cloth Manipulation Applications]]
@@ -60,10 +62,13 @@ sources: []
 - [[Robot Fleet Orchestration]]
 - [[Robotic Cloth Manipulation]]
 - [[Latent World Modeling]]
+- [[Signed Distance Field Collision Detection]]
+- [[Tetra-Encoded Signed Distance Field]]
 - [[NeuralSDF Collision Detection]]
 
 ## Methods
 
+- [[TE-SDF Collision Detection]]
 - [[Amortized NeuralSDF-Mesh Collision Detection]]
 - [[Cloth Manipulation Learning Paradigms]]
 - [[Small-Motion Tool Inertia and Friction Fault Diagnosis]]

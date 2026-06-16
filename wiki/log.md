@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-16] ingest | TE-SDF collision detection
+
+- Input: `raw/papers/0c0760_c634df9134e4476c93b0a40a5a49c203.pdf`
+- Changed: Renamed the raw PDF to `raw/papers/2026 - TE-SDF Tetra-Encoded Signed Distance Field.pdf`. Added source note and paper page for "TE-SDF: Tetra-Encoded Signed Distance Field for Memory-Efficient and Accurate Collision Detection". Added concept pages for signed distance field collision detection and Tetra-Encoded Signed Distance Field, plus a method page for TE-SDF collision detection. Updated the wiki index and linked TE-SDF from the NeuralSDF collision page.
+- Notes: PDF metadata date is 2026-05-07. The PDF lists TES SDK and encoder GitHub URLs. Venue/arXiv/DOI were not visible in the PDF and remain marked for verification. Annotation marker search found annotations but no user highlight/text/ink markers.
+
 ## [2026-06-16] maintenance | Raw paper filename alignment
 
 - Input: User requested `raw/papers/` filenames match `wiki/papers/` paper note names.

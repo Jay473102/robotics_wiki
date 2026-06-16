@@ -36,6 +36,8 @@ VoxelSDF는 query가 빠르지만 해상도와 메모리 비용에 묶인다. Ne
 
 ## Related Concepts
 
+- [[Signed Distance Field Collision Detection]]
+- [[Tetra-Encoded Signed Distance Field]]
 - [[Differentiable Dynamics]]
 - [[Physical AI]]
 - [[Simulation-Based Inference]]
