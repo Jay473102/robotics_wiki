@@ -2,7 +2,7 @@
 type: method
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-21
 tags:
   - amortized-optimization
   - collision-detection
@@ -10,6 +10,7 @@ tags:
   - contact-simulation
 sources:
   - raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf
+  - raw/chats/내용 파악 요약.pdf
 ---
 
 # Amortized NeuralSDF-Mesh Collision Detection
@@ -54,6 +55,7 @@ Amortized NeuralSDF-Mesh Collision Detection은 NeuralSDF와 mesh 사이의 cont
 - [[NeuralSDF Collision Detection]]
 - [[Differentiable Dynamics]]
 - [[Physical AI]]
+- [[2026-06-21 - What Does KKT Mean in Amortized NeuralSDF Contact Prediction]]
 
 ## Open Questions
 

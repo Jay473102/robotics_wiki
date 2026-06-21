@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-06-15
+updated: 2026-06-22
 tags:
   - index
   - robotics
@@ -23,6 +23,11 @@ sources: []
 
 ## Sources
 
+- [[2026-06-22 - AI-Based Robot Fault Diagnosis Chat]]
+- [[2026-06-15 - Amortized NeuralSDF KKT Explanation Chat]]
+- [[2026-06-21 - TE-SDF Learning Material]]
+- [[2026-04-24 - pi0.7 Steerable Generalist Robotic Foundation Model]]
+- [[2025-11-19 - pi0.6 a VLA That Learns From Experience]]
 - [[2026-05-07 - TE-SDF Tetra-Encoded Signed Distance Field]]
 - [[2026-03-06 - Amortized NeuralSDF-Mesh Collision Detection]]
 - [[2026-03-31 - DIAL Decoupling Intent and Action via Latent World Modeling]]
@@ -34,6 +39,8 @@ sources: []
 
 ## Papers
 
+- [[2026 - pi0.7 Steerable Generalist Robotic Foundation Model]]
+- [[2025 - pi0.6 a VLA That Learns From Experience]]
 - [[2026 - TE-SDF Tetra-Encoded Signed Distance Field]]
 - [[2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation]]
 - [[2026 - DIAL Decoupling Intent and Action via Latent World Modeling]]
@@ -55,10 +62,12 @@ sources: []
 - [[Neural Posterior Estimation]]
 - [[Differentiable Dynamics]]
 - [[Temperature-Friction Baseline]]
+- [[Slow-Fast Parameter Separation in Robot Fault Diagnosis]]
 - [[Robot Dynamics Parameter Identification]]
 - [[Object Singulation]]
 - [[Action Affordance Learning]]
 - [[Robot Foundation Models]]
+- [[Context-Conditioned Robot Foundation Models]]
 - [[Robot Fleet Orchestration]]
 - [[Robotic Cloth Manipulation]]
 - [[Latent World Modeling]]
@@ -68,6 +77,9 @@ sources: []
 
 ## Methods
 
+- [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
+- [[Safe Diagnostic Trajectory Design]]
+- [[RECAP RL with Experience and Corrections]]
 - [[TE-SDF Collision Detection]]
 - [[Amortized NeuralSDF-Mesh Collision Detection]]
 - [[Cloth Manipulation Learning Paradigms]]
@@ -76,6 +88,7 @@ sources: []
 
 ## Entities
 
+- [[Physical Intelligence]]
 - [[LG CNS PhysicalWorks]]
 
 ## Benchmarks
@@ -89,5 +102,12 @@ sources: []
 
 ## Questions
 
+- [[2026-06-22 - What Is the Difference Between pi0.6 and pi0.7]]
+- [[2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning]]
+- [[2026-06-22 - How Should Diagnostic Trajectories Match NPE Training Data]]
+- [[2026-06-22 - Should Robot Fault Diagnosis Use CVAE or NPE]]
+- [[2026-06-22 - How Can AI Diagnose Robot Friction Faults Under Small Motions]]
+- [[2026-06-22 - How Does TE-SDF Compute Distance]]
+- [[2026-06-21 - What Does KKT Mean in Amortized NeuralSDF Contact Prediction]]
 - [[2026-06-15 - How Should VLA Models Bridge Intent and Action]]
 - [[2026-06-15 - What Blocks General Robotic Cloth Manipulation]]

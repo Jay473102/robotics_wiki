@@ -1,8 +1,8 @@
-﻿---
+---
 type: method
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-22
 tags:
   - method
   - fault-diagnosis
@@ -10,6 +10,7 @@ tags:
   - friction
 sources:
   - raw/notes/충분 가진이 어려운 산업용 로봇의 End-effector 관성 및 마찰 파라미터 추정 기반 고장진단 방법론.md
+  - raw/chats/AI 기반 로봇 고장진단.pdf
 ---
 
 # Small-Motion Tool Inertia and Friction Fault Diagnosis
@@ -66,6 +67,9 @@ $$
 
 - [[2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[Neural Posterior Estimation]]
+- [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
+- [[Slow-Fast Parameter Separation in Robot Fault Diagnosis]]
+- [[Safe Diagnostic Trajectory Design]]
 - [[Differentiable Dynamics]]
 - [[Temperature-Friction Baseline]]
 - [[Robot Dynamics Parameter Identification]]

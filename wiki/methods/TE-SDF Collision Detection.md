@@ -2,7 +2,7 @@
 type: method
 status: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-21
 tags:
   - collision-detection
   - signed-distance-field
@@ -10,6 +10,7 @@ tags:
   - contact-simulation
 sources:
   - raw/papers/2026 - TE-SDF Tetra-Encoded Signed Distance Field.pdf
+  - raw/notes/논문 학습 자료 요청.pdf
 ---
 
 # TE-SDF Collision Detection

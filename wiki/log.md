@@ -1,5 +1,35 @@
 # Wiki Log
 
+## [2026-06-22] query | pi0.6 and pi0.7 comparison
+
+- Input: User asked for the difference between $\pi^*_{0.6}$ and $\pi_{0.7}$, then requested the answer be ingested.
+- Changed: Added `wiki/questions/2026-06-22 - What Is the Difference Between pi0.6 and pi0.7.md` and linked it from `wiki/index.md`.
+- Notes: The answer frames $\pi^*_{0.6}$ as VLA + RL/task-specific deployment improvement, and $\pi_{0.7}$ as steerable generalist VLA/RFM with rich context conditioning.
+
+## [2026-06-22] query | VLA and reinforcement learning relationship
+
+- Input: User asked about the conceptual relationship and different level of abstraction between VLA and Reinforcement Learning.
+- Changed: Added `wiki/questions/2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning.md` and linked it from `wiki/index.md`.
+- Notes: The answer frames VLA as a policy/model class and RL as a training or policy-improvement framework, using the Physical Intelligence $\pi^*_{0.6}$, $\pi_{0.7}$, and RECAP pages as local wiki context.
+
+## [2026-06-22] ingest | AI-based robot fault diagnosis chat
+
+- Input: `raw/chats/AI 기반 로봇 고장진단.pdf`
+- Changed: Added chat source note with Important Questions. Promoted three question pages about AI diagnosis under small motions, CVAE vs NPE, and diagnostic trajectory distribution matching. Added theory/method pages for physics-informed NPE, slow-fast parameter separation, and safe diagnostic trajectory design. Updated `wiki/index.md`.
+- Notes: The chat is a secondary source and includes unverified external literature suggestions. Claims about FIGAROH, safe online system identification, RMA, HiP-RSSM, and hybrid inverse dynamics should be checked against primary sources before being treated as settled knowledge.
+
+## [2026-06-22] query | TE-SDF distance computation
+
+- Input: User asked how TE-SDF computes distance based on the wiki and requested the answer be saved as a new `.md` file.
+- Changed: Added `wiki/questions/2026-06-22 - How Does TE-SDF Compute Distance.md` and linked it from `wiki/index.md`.
+- Notes: The answer summarizes TE-SDF's tetrahedron-local encoded face set distance query, gap function, preprocessing acceleration, and truncation caveats using the TE-SDF paper note and learning material source.
+
+## [2026-06-21] ingest | Physical Intelligence VLA papers and TE-SDF learning notes
+
+- Input: `raw/papers/2511.14759v2.pdf`, `raw/papers/2604.15483v2.pdf`, `raw/notes/논문 학습 자료 요청.pdf`, `raw/chats/내용 파악 요약.pdf`
+- Changed: Renamed the two new raw paper PDFs to `raw/papers/2025 - pi0.6 a VLA That Learns From Experience.pdf` and `raw/papers/2026 - pi0.7 Steerable Generalist Robotic Foundation Model.pdf`. Added source notes and paper pages for Physical Intelligence $\pi^*_{0.6}$ / RECAP and $\pi_{0.7}$. Added pages for [[RECAP RL with Experience and Corrections]], [[Context-Conditioned Robot Foundation Models]], [[Physical Intelligence]], the TE-SDF learning material, the Amortized NeuralSDF KKT chat source, and the promoted KKT question. Updated the index and connected TE-SDF/Amortized NeuralSDF method pages to the secondary notes.
+- Notes: The two paper PDFs expose arXiv identifiers `2511.14759v2` and `2604.15483v2`. PDF annotation checks found link annotations but no user highlight/text/ink markers. The TE-SDF learning material and KKT chat are secondary/LLM-generated sources; primary claims should be checked against the corresponding paper PDFs.
+
 ## [2026-06-16] ingest | TE-SDF collision detection
 
 - Input: `raw/papers/0c0760_c634df9134e4476c93b0a40a5a49c203.pdf`

@@ -1,8 +1,8 @@
-﻿---
+---
 type: concept
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-22
 tags:
   - neural-posterior-estimation
   - simulation-based-inference
@@ -10,6 +10,7 @@ tags:
 sources:
   - https://arxiv.org/abs/1905.07488
   - https://proceedings.mlr.press/v164/muratore22a.html
+  - raw/chats/AI 기반 로봇 고장진단.pdf
 ---
 
 # Neural Posterior Estimation
@@ -51,3 +52,5 @@ $$
 
 - [[Simulation-Based Inference]]
 - [[Differentiable Dynamics]]
+- [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
+- [[Safe Diagnostic Trajectory Design]]
