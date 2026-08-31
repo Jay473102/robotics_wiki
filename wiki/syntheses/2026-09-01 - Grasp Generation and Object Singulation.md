@@ -1,8 +1,8 @@
 ---
 type: synthesis
 status: draft
-created: 2026-08-31
-updated: 2026-08-31
+created: 2026-09-01
+updated: 2026-09-01
 tags:
   - grasping
   - manipulation

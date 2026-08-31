@@ -2,7 +2,7 @@
 type: method
 status: draft
 created: 2026-06-15
-updated: 2026-08-31
+updated: 2026-09-01
 tags:
   - bin-picking
   - manipulation
@@ -36,7 +36,7 @@ Tangled-prone bin picking은 무작위로 쌓인 물체가 서로 얽히는 상�
 
 ## Related Pages
 
-- [[2026-08-31 - Grasp Generation and Object Singulation]] - 이 축과 [[Generative Grasp Synthesis]] 축의 접점 정리.
+- [[2026-09-01 - Grasp Generation and Object Singulation]] - 이 축과 [[Generative Grasp Synthesis]] 축의 접점 정리.
 
 ## Open Questions
 

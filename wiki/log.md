@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-14
-updated: 2026-08-31
+updated: 2026-09-01
 tags:
   - log
 sources: []
@@ -12,11 +12,11 @@ sources: []
 
 append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.md`의 Logging Format을 따른다.
 
-## [2026-08-31] query | Grasp 생성 축과 singulation 축 연결
+## [2026-09-01] query | Grasp 생성 축과 singulation 축 연결
 
 - Input: 사용자가 "robotics_wiki에서 그래스핑 관련 내용 설명"을 요청한 뒤, 답변에서 지적한 두 축의 단절을 잇는 synthesis 페이지 작성을 지시했다. 근거 자료는 기존 위키 페이지들과 `raw/papers/2608.26076v1.pdf`, `raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf`.
-- Changed: `wiki/syntheses/2026-08-31 - Grasp Generation and Object Singulation.md`를 신설했다. 두 축의 결정 변수·관측·학습 신호·평가·실패 모드를 비교하고 접점 4개(segmentation 가정, 재계획 비용, downstream 목적으로서의 얽힘, SDF 기하 표현 공유)를 정리했다. [[Object Singulation]], [[Tangled-Prone Bin Picking]], [[Generative Grasp Synthesis]]에 backlink를 추가하고 index의 Syntheses 절을 갱신했다.
-- Notes: 새 자료 ingest 없이 기존 페이지만 재조합했다. 비교표의 접점과 Implications는 Tier C(에이전트 추론)로 명시했다. 어느 논문도 상대 축을 다루지 않아 두 축을 직접 잇는 Tier A/B 근거는 위키에 없다. 날짜 불일치: 실행 환경의 실제 오늘 날짜는 2026-08-31인데 직전 ingest가 만든 페이지들(GraspMF paper/method, Generative Grasp Synthesis, ACRONYM, index)은 `created: 2026-09-01`로 하루 앞서 있다. 추측 날짜를 쓰지 않기 위해 이번 작업은 모두 2026-08-31로 기록했고, `created: 2026-09-01`인 [[Generative Grasp Synthesis]]는 `updated < created` lint 위반을 피하려 `updated`를 그대로 두었다. 어느 쪽 날짜가 맞는지 사용자 확인이 필요하다.
+- Changed: `wiki/syntheses/2026-09-01 - Grasp Generation and Object Singulation.md`를 신설했다. 두 축의 결정 변수·관측·학습 신호·평가·실패 모드를 비교하고 접점 4개(segmentation 가정, 재계획 비용, downstream 목적으로서의 얽힘, SDF 기하 표현 공유)를 정리했다. [[Object Singulation]], [[Tangled-Prone Bin Picking]], [[Generative Grasp Synthesis]]에 backlink를 추가하고 index의 Syntheses 절을 갱신했다.
+- Notes: 새 자료 ingest 없이 기존 페이지만 재조합했다. 비교표의 접점과 Implications는 Tier C(에이전트 추론)로 명시했다. 어느 논문도 상대 축을 다루지 않아 두 축을 직접 잇는 Tier A/B 근거는 위키에 없다. 날짜 불일치: 실행 환경 시계는 2026-08-31이었으나 사용자가 환경이 하루 늦다고 확인해 실제 날짜 2026-09-01로 기록했다. 처음 2026-08-31로 만들었던 이 작업의 파일명·frontmatter·링크를 같은 커밋 흐름에서 2026-09-01로 정정했다.
 
 ## [2026-09-01] ingest | GraspMF Lie group MeanFlow grasping
 
