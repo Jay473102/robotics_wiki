@@ -1,6 +1,6 @@
 ---
 type: concept
-status: seed
+status: stub
 created: 2026-06-14
 updated: 2026-06-14
 tags:

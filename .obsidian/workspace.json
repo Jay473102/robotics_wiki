@@ -8,29 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5da5d2064121e737",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": null,
-                  "focus": false,
-                  "profile": {
-                    "type": "invalid"
-                  },
-                  "profileSourceId": null,
-                  "serial": null,
-                  "userTitle": ""
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "터미널: 유효하지 않음"
-            }
-          },
-          {
             "id": "18e6896f4765376e",
             "type": "leaf",
             "pinned": true,
@@ -70,7 +47,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "터미널: Robotics_wiki"
+              "title": "터미널: ⠐ 커밋 및 푸시"
             }
           },
           {
@@ -113,25 +90,154 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "터미널: Robotics_wiki"
+              "title": "터미널: cmd"
             }
           },
           {
-            "id": "58f113c8324c2914",
+            "id": "c72c12f34c28ed33",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "G:\\Obsidian Vault\\Robotics_wiki",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "environment": [],
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "win32": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "win32IntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "터미널: ✳ Claude Code"
+            }
+          },
+          {
+            "id": "d18807324772b616",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "G:\\Obsidian Vault\\Robotics_wiki",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "environment": [],
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "win32": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "win32IntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "터미널: ✳ Claude Code"
+            }
+          },
+          {
+            "id": "7a6b466c223511e5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "G:\\Obsidian Vault\\Robotics_wiki",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "environment": [],
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "win32": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "win32IntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "터미널: ✳ AGENTS.md 가이드 업그레이드 및 최신 LLM 반영"
+            }
+          },
+          {
+            "id": "c5f9c17d7d3d18eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/questions/2026-06-22 - What Is the Difference Between pi0.6 and pi0.7.md",
+                "file": "wiki/concepts/Neural Posterior Estimation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-22 - What Is the Difference Between pi0.6 and pi0.7"
+              "title": "Neural Posterior Estimation"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -151,7 +257,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -305,43 +413,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58f113c8324c2914",
+  "active": "c5f9c17d7d3d18eb",
   "lastOpenFiles": [
-    "wiki/questions/2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning.md",
+    "wiki/sources/2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow.md.tmp.25024.aae31e878d35",
+    "wiki/_meta/Ontology.md.tmp.25024.bccbe7869d80",
+    "wiki/_meta/Ontology.md.tmp.25024.2ec1cd62a43f",
+    "wiki/index.md.tmp.25024.17ffd850aae3",
+    "wiki/index.md.tmp.25024.53ce7670ed9a",
+    "wiki/index.md.tmp.25024.2b12d338be43",
+    "wiki/index.md.tmp.25024.abd739995af8",
+    "wiki/index.md.tmp.25024.331875f1862f",
+    "wiki/index.md.tmp.25024.caedeb3154f8",
+    "wiki/log.md.tmp.25024.3ddf89f54000",
+    "wiki/benchmarks/ACRONYM.md",
+    "wiki/benchmarks/ACRONYM.md.tmp.25024.3fb6f5c1ad44",
+    "wiki/concepts/Generative Grasp Synthesis.md",
+    "wiki/concepts/MeanFlow.md",
+    "wiki/concepts/Flow Matching.md",
+    "wiki/methods/GraspMF Few-Step Grasp Generation.md",
+    "wiki/papers/2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow.md",
+    "wiki/sources/2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "wiki/questions/2026-06-15 - How Should VLA Models Bridge Intent and Action.md",
+    "wiki/papers/2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration.md",
+    "wiki/questions/2026-08-01 - Can One SDF Representation Serve Perception and Contact.md",
+    "wiki/benchmarks/3DMatch.md",
+    "wiki/benchmarks/ModelNet40.md",
+    "wiki/concepts/Neural Implicit Surface Representation.md",
+    "wiki/concepts/Point Cloud Registration.md",
+    "wiki/methods/SDFReg Point Cloud Registration.md",
+    "wiki/sources/2023-04-18 - SDFReg Learning Signed Distance Functions for Point Cloud Registration.md",
+    "wiki/_meta/Maintenance.md",
     "wiki/questions/2026-06-22 - What Is the Difference Between pi0.6 and pi0.7.md",
+    "wiki/questions/2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning.md",
     "wiki/papers/2026 - pi0.7 Steerable Generalist Robotic Foundation Model.md",
     "wiki/methods/Small-Motion Tool Inertia and Friction Fault Diagnosis.md",
     "wiki/methods/Safe Diagnostic Trajectory Design.md",
-    "wiki/questions/2026-06-22 - How Can AI Diagnose Robot Friction Faults Under Small Motions.md",
-    "wiki/questions/2026-06-22 - How Does TE-SDF Compute Distance.md",
-    "wiki/questions/2026-06-22 - How Should Diagnostic Trajectories Match NPE Training Data.md",
-    "wiki/questions/2026-06-22 - Should Robot Fault Diagnosis Use CVAE or NPE.md",
-    "wiki/concepts/Simulation-Based Inference.md",
-    "wiki/concepts/Slow-Fast Parameter Separation in Robot Fault Diagnosis.md",
-    "wiki/methods/Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis.md",
-    "wiki/sources/2026-06-22 - AI-Based Robot Fault Diagnosis Chat.md",
-    "raw/chats/AI 기반 로봇 고장진단.pdf",
-    "raw/chats/미확인 371912.crdownload",
-    "wiki/concepts/Action Affordance Learning.md",
-    "환영합니다!.md",
-    "wiki/concepts/Physical AI.md",
-    "wiki/index.md",
-    "wiki/concepts/Neural Posterior Estimation.md",
-    "AGENTS.md",
-    "wiki/papers/2026 - TE-SDF Tetra-Encoded Signed Distance Field.md",
-    "wiki/questions/2026-06-21 - What Does KKT Mean in Amortized NeuralSDF Contact Prediction.md",
-    "wiki/sources/2026-06-15 - Amortized NeuralSDF KKT Explanation Chat.md",
-    "wiki/sources/2026-06-21 - TE-SDF Learning Material.md",
-    "wiki/entities/Physical Intelligence.md",
-    "wiki/concepts/Context-Conditioned Robot Foundation Models.md",
-    "wiki/methods/RECAP RL with Experience and Corrections.md",
-    "raw/papers/2026 - pi0.7 Steerable Generalist Robotic Foundation Model.pdf",
-    "raw/papers/2025 - pi0.6 a VLA That Learns From Experience.pdf",
-    "raw/notes/논문 학습 자료 요청.pdf",
-    "raw/papers/2511.14759v2.pdf",
-    "raw/papers/미확인 644929.crdownload",
-    "raw/papers/미확인 927689.crdownload",
-    "raw/papers/2604.15483v2.pdf",
-    "raw/papers/미확인 601087.crdownload"
+    "wiki/questions/2026-06-22 - How Can AI Diagnose Robot Friction Faults Under Small Motions.md"
   ]
 }

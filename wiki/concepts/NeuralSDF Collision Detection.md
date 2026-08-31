@@ -2,12 +2,13 @@
 type: concept
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-01
 tags:
   - collision-detection
   - neural-sdf
   - contact-simulation
-  - signed-distance-function
+  - signed-distance-field
+  - neural-implicit-representation
 sources:
   - raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf
 ---
@@ -38,11 +39,15 @@ VoxelSDF는 query가 빠르지만 해상도와 메모리 비용에 묶인다. Ne
 
 - [[Signed Distance Field Collision Detection]]
 - [[Tetra-Encoded Signed Distance Field]]
+- [[Neural Implicit Surface Representation]] — 동일한 neural SDF 표현을 지각 축에서 쓰는 사례를 포함한 상위 개념.
+- [[SDFReg Point Cloud Registration]] — 같은 query-and-differentiate 패턴을 pose 추정에 적용한 방법.
 - [[Differentiable Dynamics]]
 - [[Physical AI]]
 - [[Simulation-Based Inference]]
 
 ## Open Questions
+
+- 지각용으로 학습된 neural SDF를 collision detection에 재사용할 때 국소 정확도가 충분한가? → [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]
 
 - NeuralSDF collision detector가 safety-critical planning에서 conservative collision bounds를 제공할 수 있는가?
 - NeuralSDF의 geometric error가 contact solver instability로 이어지는 경로를 어떻게 진단할 수 있는가?

@@ -36,7 +36,7 @@ $\pi^*_{0.6}$는 경험/RL로 특정 task 성능을 개선하는 VLA이고, $\pi
 
 ## Current Answer
 
-$\pi^*_{0.6}$는 "연습해서 잘하게 되는 모델"에 가깝다. 처음부터 완벽히 잘하는 것보다, 실제 로봇을 돌려보고 reward, 실패, human correction을 모아서 다시 학습한다. 핵심 키워드는 experience, correction, RL, task-specific improvement다.
+$\pi^*_{0.6}$는 "연습해서 잘하게 되는 모델"에 가깝다. 처음부터 완 
 
 이 방향은 [[RECAP RL with Experience and Corrections]]와 연결된다. RECAP은 VLA를 autonomous rollouts, reward feedback, human interventions로 반복 개선하는 offline RL-style training recipe다.
 

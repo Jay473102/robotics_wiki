@@ -2,11 +2,12 @@
 type: concept
 status: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-08-01
 tags:
   - collision-detection
   - signed-distance-field
   - contact-simulation
+  - neural-implicit-representation
 sources:
   - raw/papers/2026 - TE-SDF Tetra-Encoded Signed Distance Field.pdf
   - raw/papers/2026 - Amortized NeuralSDF-Mesh Collision Detection for Robotic Contact Simulation.pdf
@@ -40,11 +41,14 @@ Signed Distance Field Collision Detection은 물체 표면까지의 signed dista
 
 - [[Tetra-Encoded Signed Distance Field]]
 - [[NeuralSDF Collision Detection]]
+- [[Neural Implicit Surface Representation]] — 같은 SDF 표현이 접촉뿐 아니라 지각(registration)에도 쓰인다는 상위 개념.
+- [[Point Cloud Registration]] — SDF를 pose 추정에 쓰는 대응 축.
 - [[Differentiable Dynamics]]
 - [[Physical AI]]
 
 ## Open Questions
 
 - Scene 안에서 voxel, analytic primitive, NeuralSDF, TE-SDF를 어떤 기준으로 hybrid하게 선택해야 하는가?
+- 지각 단계에서 만들어진 SDF를 접촉 계산에 재사용할 수 있는가? → [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]
 - SDF approximation error가 contact solver instability로 이어지는 경로를 어떻게 계측할 수 있는가?
 - Safety-critical planning에서 SDF collision detector가 conservative bound를 제공하려면 어떤 representation이 필요한가?

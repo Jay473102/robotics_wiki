@@ -16,6 +16,7 @@ year:
 venue:
 doi:
 url:
+superseded_by: "[[2021 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification]]"
 ---
 
 # Unverified - Raviola Dynamic Parameter Identification Reference

@@ -2,7 +2,7 @@
 type: meta
 status: active
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-01
 tags:
   - workflow
   - chat-log
@@ -13,6 +13,8 @@ sources:
 ---
 
 # Chat Source Workflow
+
+`AGENTS.md`가 계약, [[Workflow]]가 일반 절차, 이 페이지가 chat 전용 세부다. 근거 등급은 [[Ontology]]의 Evidence Tiers를 따르며 LLM 답변은 Tier C다.
 
 ## Purpose
 
@@ -29,13 +31,13 @@ sources:
 
 - 권장 위치: `raw/chats/`
 - 권장 파일명: `YYYY-MM-DD Platform - Topic.md`
-- 원본 export는 가능한 한 보존한다. Markdown, HTML, JSON, TXT 모두 허용한다.
+- 원본 export는 가능한 한 보존한다. Markdown, HTML, JSON, TXT, PDF 모두 허용한다. PDF export는 대화 구조와 모델명이 손실되기 쉬우므로 source note에 확인 가능한 만큼만 적고 나머지는 `unknown`으로 둔다.
 - 대화가 길면 원본은 그대로 두고, source note에서 section별 요약만 만든다.
 - 원본에 민감정보가 포함되어 있으면 raw 파일을 자동 수정하지 않는다. 대신 source note에 `민감정보 포함 가능`을 표시하고 wiki 본문에 재노출하지 않는다.
 
 ## Source Note Rules
 
-모든 ingest 대상 chat은 `wiki/sources/YYYY-MM-DD - Chat - Topic.md`로 source note를 만든다.
+모든 ingest 대상 chat은 `wiki/sources/YYYY-MM-DD - Chat - Topic.md`로 source note를 만든다. frontmatter는 `type: source`, `status: ingested`, `source_kind: llm-chat`을 쓴다. 템플릿은 [[Templates]]의 Chat Source를 따른다.
 
 필수 기록:
 
@@ -58,7 +60,7 @@ Chat source에서 바로 `wiki/`로 승격할 수 있는 내용:
 - 업체/제품/연구실 정보: `wiki/entities/`
 - 실험 절차나 구현 패턴: `wiki/methods/`
 
-승격 전에 primary source 확인이 필요한 내용:
+승격 전에 Tier A/B 확인이 필요한 내용:
 
 - 논문 claim, benchmark score, SOTA 비교.
 - 업체 발표, 제품 기능, 가격, 고객사, 투자/제휴.

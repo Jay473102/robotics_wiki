@@ -1,4 +1,4 @@
-﻿---
+---
 type: synthesis
 status: draft
 created: 2026-06-15
