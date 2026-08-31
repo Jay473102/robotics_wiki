@@ -2,7 +2,7 @@
 type: concept
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-31
 tags:
   - manipulation
   - bin-picking
@@ -36,6 +36,7 @@ Object singulation은 cluttered environment에서 개별 물체 하나를 다른
 
 - [[Action Affordance Learning]]
 - [[Tangled-Prone Bin Picking]]
+- [[2026-08-31 - Grasp Generation and Object Singulation]] - singulation 축과 생성형 grasp 축을 잇는 종합 페이지.
 
 ## Open Questions
 

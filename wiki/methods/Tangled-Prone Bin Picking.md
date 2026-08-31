@@ -2,7 +2,7 @@
 type: method
 status: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-31
 tags:
   - bin-picking
   - manipulation
@@ -33,6 +33,10 @@ Tangled-prone bin picking은 무작위로 쌓인 물체가 서로 얽히는 상�
 - Top-down depth image는 단순하고 빠르지만 occlusion과 missing geometry에 취약하다.
 - 얽힘은 접촉과 기하가 결합된 현상이라 simulation-real gap이 크다.
 - Buffer bin은 dense clutter에서 직접 pulling하지 않고 얽힘 정도를 낮추는 실용적 engineering trick으로 볼 수 있다.
+
+## Related Pages
+
+- [[2026-08-31 - Grasp Generation and Object Singulation]] - 이 축과 [[Generative Grasp Synthesis]] 축의 접점 정리.
 
 ## Open Questions
 

@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-09-01
+updated: 2026-08-31
 tags:
   - index
   - robotics
@@ -115,6 +115,7 @@ sources: []
 
 ## Syntheses
 
+- [[2026-08-31 - Grasp Generation and Object Singulation]] - 생성형 grasp 분포 학습 축과 bin picking singulation 축의 접점 정리.
 - [[2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[2026-06-15 - LG CNS PhysicalWorks]]
 

@@ -42,6 +42,7 @@ Grasp은 조작의 진입점이고, 분포 커버리지는 cluttered·제약 환
 - [[Flow Matching]], [[MeanFlow]] — 생성 백본.
 - [[Vision-Language-Action Models]] — 추론: VLA는 grasp을 명시적 pose 분포가 아니라 policy 안에 암묵적으로 학습한다. 명시적 grasp 생성은 계획 기반 파이프라인(segmentation → grasp 샘플링 → motion planning)에서 여전히 유효하다.
 - [[Tangled-Prone Bin Picking]] — grasp 선택이 성패를 가르는 인접 태스크 축.
+- [[2026-08-31 - Grasp Generation and Object Singulation]] — 이 축과 singulation 축의 접점을 정리한 종합 페이지.
 
 ## Contradictions / Updates
 
