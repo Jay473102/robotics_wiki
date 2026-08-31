@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-06-22
+updated: 2026-09-01
 tags:
   - index
   - robotics
@@ -16,10 +16,14 @@ sources: []
 
 ## Start Here
 
+- [[Home]] - vault 소개와 사용법.
 - [[Workflow]] - 자료 ingest, 질문 답변, 위키 점검 절차.
+- [[Maintenance]] - 위키 점검 체크리스트와 `wiki/_meta/lint.py` 실행 방법.
 - [[Chat Source Workflow]] - `raw/chats/` LLM 대화 기록을 source note와 위키 페이지로 승격하는 절차.
-- [[Ontology]] - 이 위키에서 추적할 로보틱스/Physical AI 지식 축.
-- [[Templates]] - 페이지 작성 템플릿 모음.
+- [[Ontology]] - 지식 축, 관계 어휘, 태그 어휘, 근거 등급(Tier A/B/C).
+- [[Templates]] - 페이지 템플릿과 frontmatter 명세.
+
+운영 규칙 전체는 vault 루트의 `AGENTS.md`에 있다. Claude Code는 `CLAUDE.md`가 이를 import한다.
 
 ## Sources
 
@@ -37,8 +41,13 @@ sources: []
 - [[2021-06-29 - Effects of Temperature and Mounting Configuration on Dynamic Parameters Identification]]
 - [[2026-06-15 - LG CNS PhysicalWorks Deep Research Report]]
 
+- [[2023-04-18 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]]
+- [[2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]]
+
 ## Papers
 
+- [[2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]] - neural SDF로 대응점 없이 point cloud를 정렬한다.
+- [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]] - MeanFlow를 SO(3)×R3에 정식화해 5 NFE 이하로 SOTA급 grasp을 생성한다 (GraspMF).
 - [[2026 - pi0.7 Steerable Generalist Robotic Foundation Model]]
 - [[2025 - pi0.6 a VLA That Learns From Experience]]
 - [[2026 - TE-SDF Tetra-Encoded Signed Distance Field]]
@@ -74,6 +83,11 @@ sources: []
 - [[Signed Distance Field Collision Detection]]
 - [[Tetra-Encoded Signed Distance Field]]
 - [[NeuralSDF Collision Detection]]
+- [[Neural Implicit Surface Representation]] - SDF를 접촉 계산과 지각 양쪽에서 공유하는 상위 표현 개념.
+- [[Point Cloud Registration]] - 두 point cloud를 정렬하는 문제와 그 강건성 축.
+- [[Flow Matching]] - velocity field 회귀로 분포를 운반하는 생성 모델 프레임워크. pi0 계열 action head의 기반.
+- [[MeanFlow]] - 구간 평균 속도를 학습해 1~수 스텝 생성을 얻는 few-step 프레임워크.
+- [[Generative Grasp Synthesis]] - SE(3) grasp 분포를 생성 모델로 학습하는 문제 영역.
 
 ## Methods
 
@@ -85,6 +99,8 @@ sources: []
 - [[Cloth Manipulation Learning Paradigms]]
 - [[Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[Tangled-Prone Bin Picking]]
+- [[SDFReg Point Cloud Registration]]
+- [[GraspMF Few-Step Grasp Generation]] - MeanFlow 기반 밀리초 단위 grasp pose 샘플링 절차.
 
 ## Entities
 
@@ -93,7 +109,9 @@ sources: []
 
 ## Benchmarks
 
-아직 벤치마크 페이지가 없다.
+- [[ModelNet40]] - 합성 CAD shape 기반 registration benchmark. cross-category 일반화 측정.
+- [[3DMatch]] - Kinect 실내 RGB-D scan 기반 실 데이터 registration benchmark.
+- [[ACRONYM]] - 시뮬레이션 기반 대규모 parallel-jaw grasp 데이터셋. SE(3) grasp 생성 연구의 표준.
 
 ## Syntheses
 
@@ -102,6 +120,7 @@ sources: []
 
 ## Questions
 
+- [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]
 - [[2026-06-22 - What Is the Difference Between pi0.6 and pi0.7]]
 - [[2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning]]
 - [[2026-06-22 - How Should Diagnostic Trajectories Match NPE Training Data]]

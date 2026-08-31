@@ -1,4 +1,34 @@
+---
+type: log
+status: active
+created: 2026-06-14
+updated: 2026-08-01
+tags:
+  - log
+sources: []
+---
+
 # Wiki Log
+
+append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.md`의 Logging Format을 따른다.
+
+## [2026-09-01] ingest | GraspMF Lie group MeanFlow grasping
+
+- Input: `raw/papers/2608.26076v1.pdf` (arXiv:2608.26076v1, 2026-08-26, "Fast Generative Grasping via Lie Group-Constrained MeanFlow", Purdue)
+- Changed: source note [[2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]]와 paper 페이지 [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]]를 추가했다. `wiki/methods/GraspMF Few-Step Grasp Generation.md`, `wiki/concepts/Flow Matching.md`, `wiki/concepts/MeanFlow.md`, `wiki/concepts/Generative Grasp Synthesis.md`, `wiki/benchmarks/ACRONYM.md`를 신설했다. `Ontology`의 태그 어휘에 `grasping`, `flow-matching`, `generative-models`를 추가했다. index를 갱신했다.
+- Notes: PDF 전문(12쪽)을 pypdf로 추출해 표 수치를 원문에서 확인했다. Read 도구는 owner-password 때문에 열지 못했으나 열람 제한은 없었다. PDF annotation 없음. Grasp 생성 축이 이 ingest로 신설되었고, 기존 위키와의 연결점은 세 갈래다: pi0 계열의 flow matching action head (few-step화 이식 가능성), Amortized NeuralSDF의 amortization 패턴, 보조 SDF regression을 통한 Neural Implicit Surface Representation 축. 검증 필요 항목: concurrent work(Zhong et al. ICML 2026) 열위 주장은 저자 측 재현 기반, 코드 공개 여부 미언급, ACRONYM 전체 규모는 원 논문 미확보로 부분집합 수치만 기록. 원자료 파일명이 arXiv ID 그대로라 명명 규칙에 맞는 rename은 사용자 승인 대기.
+
+## [2026-08-01] ingest | SDFReg point cloud registration
+
+- Input: `raw/papers/2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration.pdf` (arXiv 2304.08929v2, 사용자가 링크 지정해 신규 수집)
+- Changed: source note와 paper page를 추가했다. `wiki/methods/SDFReg Point Cloud Registration.md`, `wiki/concepts/Point Cloud Registration.md`, `wiki/concepts/Neural Implicit Surface Representation.md`를 신설했다. 비어 있던 `wiki/benchmarks/`에 첫 페이지로 [[ModelNet40]]과 [[3DMatch]]를 만들었다. 질문 [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]를 승격했다. 기존 [[Signed Distance Field Collision Detection]]과 [[NeuralSDF Collision Detection]]에 신규 개념 링크와 열린 질문을 연결하고, `signed-distance-function` 태그를 `signed-distance-field`로 정규화했다. `Ontology`의 태그 어휘에 `point-cloud-registration`, `neural-implicit-representation`, `perception`, `benchmark`를 추가했다. index를 갱신했다.
+- Notes: PDF 본문과 supplementary를 직접 추출해 표 수치를 원문에서 확인했다. PDF annotation 없음. 이 논문은 위키에 있던 SDF 자료들과 응용 축이 다르다. 기존 세 편은 모두 접촉/충돌 계산이고 이 논문은 지각/정렬이라, 공통 표현을 묶는 개념 페이지를 새로 만들고 두 축을 연결하는 질문을 승격했다. 논문 자체의 공백도 기록했다. 계산 비용이 전혀 보고되지 않았고, limitation 절이 없으며, clean data에서는 IFR/DCP 대비 이점이 없다. 검증 필요: Table 3의 baseline 인용 번호가 참고문헌 목록과 어긋나 있고(`FMR [12]`, `DeepGMR [11]`), 본문과 supplementary가 SDF 학습을 각각 self-supervised와 semi-supervised로 다르게 부른다. venue 미표기라 게재 여부는 미확인이다.
+
+## [2026-08-01] schema | AGENTS.md 및 운영 스키마 업그레이드
+
+- Input: 사용자가 `AGENTS.md` 가이드 개선 가능성과 최신 LLM wiki 운영 방식 조사를 요청. 조사 대상은 Karpathy LLM Wiki 원본 gist, LLM Wiki v2 확장 논의, AGENTS.md 스펙 관련 2026년 가이드, Claude Code의 AGENTS.md/CLAUDE.md 동작.
+- Changed: `AGENTS.md`를 계약 중심으로 재작성했다. Non-Negotiables, Frontmatter Contract, Evidence Tiers(A/B/C), Lifecycle and Supersession, Scaling Rules, Tool Notes를 신설하고 상세 절차는 `wiki/_meta/`로 위임했다. 에이전트 명칭을 Codex 고정에서 도구 중립으로 바꿨다. `CLAUDE.md`를 추가해 `@AGENTS.md`를 import하도록 했다. `wiki/_meta/Workflow.md`를 ingest triage/read/write/link/record 5단계로 재구성하고 query에 evidence tier·freshness 규칙을 추가했다. `wiki/_meta/Maintenance.md`와 실행 가능한 `wiki/_meta/lint.py`를 신설했다. `wiki/_meta/Ontology.md`에 Relations, Evidence Tiers, Tag Vocabulary를 추가했다. `wiki/_meta/Templates.md`에 frontmatter 표와 Source/Method/Benchmark/Log/Superseded 템플릿을 추가했다. `raw/README.md`, `Home.md`, `wiki/index.md`를 갱신하고 `raw/lectures/`를 만들었다. lint 결과 발견된 항목을 수정했다. synthesis 페이지의 BOM 제거, `log.md` frontmatter 추가, `Embodied AI` status `seed` -> `stub`, small-motion source note status `processed` -> `ingested`, Raviola 페이지에 `superseded_by` 추가.
+- Notes: 조사에서 확인한 핵심은 세 가지다. (1) Claude Code는 `AGENTS.md`를 직접 읽지 않으므로 `CLAUDE.md`의 `@AGENTS.md` import가 필요하다. 이 vault에는 `CLAUDE.md`가 없어 기존 규칙이 Claude Code 세션에 로드되지 않고 있었다. (2) 스키마 파일은 길이보다 밀도가 중요하며, 상세 절차 중복은 드리프트를 만든다. `AGENTS.md`와 `Workflow.md`에 중복되어 있던 ingest/chat 절차를 한 곳으로 정리했다. (3) LLM Wiki v2 논의에서 유효한 것은 supersession과 evidence chain이고, 수치 confidence score는 비판이 많아 채택하지 않았다. 대신 Tier A/B/C와 `superseded_by`를 도입했다. 검증 필요: `raw/lecutre_note/`는 오타로 보이는 빈 디렉터리이고 `raw/lectures/`로 대체 예정이나 사용자 확인 전까지 삭제하지 않았다.
 
 ## [2026-06-22] query | pi0.6 and pi0.7 comparison
 

@@ -47,7 +47,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "터미널: ⠐ 커밋 및 푸시"
+              "title": "터미널: ⠂ 커밋 및 푸시"
             }
           },
           {
@@ -413,7 +413,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5f9c17d7d3d18eb",
+  "active": "3c1757d0650400dd",
   "lastOpenFiles": [
     "wiki/sources/2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow.md.tmp.25024.aae31e878d35",
     "wiki/_meta/Ontology.md.tmp.25024.bccbe7869d80",
