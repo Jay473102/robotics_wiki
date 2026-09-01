@@ -23,7 +23,7 @@ sources:
 
 두 축은 경쟁 관계가 아니라 **같은 파이프라인의 서로 다른 층**이다. 생성 축은 "이 물체를 어떻게 잡는가"의 해공간을 주고, singulation 축은 "지금 무엇을 대상으로 삼는가"를 정한다. 실제로 GraspMF의 실기 파이프라인은 SAM segmentation → grasp 샘플링 → RRT-Connect 계획인데, 이 구조는 **집을 물체가 이미 분리 가능하다는 가정** 위에서만 성립한다. 그 가정이 깨지는 지점이 정확히 singulation 축의 문제 영역이다.
 
-추론: 두 축이 만나는 실질적 접점은 세 가지다. ① cluttered scene 조건부 grasp 분포 학습(= segmentation 의존성 제거), ② 밀리초 latency가 열어주는 closed-loop 재계획(bin picking은 본래 재관측·재계획 루프다), ③ grasp 분포 위에 얽힘 점수를 downstream 목적으로 얹는 구성. 위키에 이 셋을 실제로 수행한 자료는 아직 없다.
+추론: 두 축이 만나는 실질적 접점은 세 가지다. ① cluttered scene 조건부 grasp 분포 학습(= segmentation 의존성 제거), ② 밀리초 latency가 열어주는 closed-loop 재계획(bin picking은 본래 재관측·재계획 루프다), ③ grasp 분포 위에 얽힘 점수를 downstream 목적으로 얹는 구성. 위키에 이 셋을 실제로 수행한 자료는 아직 없다. (2026-09-01 갱신: [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]]이 인접 형태를 실증했다 — 생성 grasp을 pose 조건 segment 위에서 fallback으로 쓰고 기하 점수로 rerank한다. 다만 ①segmentation 의존 제거, ②closed-loop 재계획, ③얽힘 점수 결합 자체는 여전히 미수행이다.)
 
 ## Current Picture
 
@@ -49,6 +49,7 @@ sources:
 - **Tier A**: GraspMF 본문 Table I–V — T=5에서 15.5ms, ACRONYM ID SR 87.40 / OOD 71.73, 전 sampling budget($T{=}1{\dots}100$)에서 OOD SR 표준편차 1.63. 실기 Franka Research 3 + Franka Hand, SAM segmentation, VAMP RRT-Connect, 물체 3종 9~10/10.
 - **Tier A**: Zhang et al. 2023 본문 — `PickNet`/`PullNet` 구조, PhysX 기반 self-supervised 데이터 수집, Kawada NEXTAGE + Photoneo PhoXi 실기에서 약 90% 성공률.
 - **Tier C (추론)**: 아래 Comparison의 "접점" 항목과 Implications의 파이프라인 구성은 두 자료를 위키 차원에서 결합한 에이전트 추론이다. 어느 논문도 상대 축을 다루지 않는다.
+- **Tier A (2026-09-01 추가)**: [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]] — 두 축을 실제로 한 파이프라인에 넣은 첫 위키 내 실증. 생성 모델(CGN)을 model-based backbone의 deadlock 해소용 fallback으로 배치하고, 같은 setup에서 model-based clearance 50.9% / GSR 99.1% vs model-free clearance 100% / GSR 45.6%의 trade-off를 정량화했다. 단 얽힘(singulation의 좁은 의미)은 미해결 한계로 남긴다.
 
 ## Comparison
 
@@ -79,6 +80,10 @@ sources:
 - Few-step 생성기를 실제 closed-loop replanning 루프에 넣은 실증. 동적 장면 성공률 개선폭.
 - Tactile / force-torque 결합이 얽힘 판정 실패를 얼마나 줄이는가 ([[Tangled-Prone Bin Picking]]과 [[Robotic Cloth Manipulation]]이 같은 질문을 공유한다).
 - 명시적 grasp 생성 + motion planning vs end-to-end [[Vision-Language-Action Models]]의 산업 배치 비교 자료.
+
+## Updates
+
+- 2026-09-01: [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]] ingest. "두 축을 직접 잇는 Tier A/B 근거는 위키에 없다"는 서술이 부분적으로 뒤집혔다 — 산업 파이프라인에서 두 축의 결합 방식(주 경로 model-based + 생성 모델 fallback)에 대한 Tier A 근거가 생겼다. 접점 2(재계획 비용)에 대해서는 반례적 뉘앙스: 해당 시스템에서 생성 latency 1.01s는 병목이 아니었고, 병목은 GSR과 grasp depth였다. 접점 4에는 변화 없음.
 
 ## Open Questions
 

@@ -43,11 +43,13 @@ sources: []
 
 - [[2023-04-18 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]]
 - [[2026-08-26 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]]
+- [[2026-08-28 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]]
 
 ## Papers
 
 - [[2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]] - neural SDF로 대응점 없이 point cloud를 정렬한다.
 - [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]] - MeanFlow를 SO(3)×R3에 정식화해 5 NFE 이하로 SOTA급 grasp을 생성한다 (GraspMF).
+- [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]] - model-based backbone + model-free fallback 4층 구조와 Wilson score 자가학습으로 산업 bin clearance 100%를 달성한다.
 - [[2026 - pi0.7 Steerable Generalist Robotic Foundation Model]]
 - [[2025 - pi0.6 a VLA That Learns From Experience]]
 - [[2026 - TE-SDF Tetra-Encoded Signed Distance Field]]
@@ -88,6 +90,7 @@ sources: []
 - [[Flow Matching]] - velocity field 회귀로 분포를 운반하는 생성 모델 프레임워크. pi0 계열 action head의 기반.
 - [[MeanFlow]] - 구간 평균 속도를 학습해 1~수 스텝 생성을 얻는 few-step 프레임워크.
 - [[Generative Grasp Synthesis]] - SE(3) grasp 분포를 생성 모델로 학습하는 문제 영역.
+- [[Model-Based and Model-Free Grasping]] - grasping 접근의 기본 이분법과 산업 현장의 trade-off.
 
 ## Methods
 
@@ -101,6 +104,7 @@ sources: []
 - [[Tangled-Prone Bin Picking]]
 - [[SDFReg Point Cloud Registration]]
 - [[GraspMF Few-Step Grasp Generation]] - MeanFlow 기반 밀리초 단위 grasp pose 샘플링 절차.
+- [[Hierarchical Hybrid Bin-Picking]] - 4층 model-based/model-free fallback과 Wilson score grasp 자가학습 절차.
 
 ## Entities
 

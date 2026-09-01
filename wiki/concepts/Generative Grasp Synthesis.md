@@ -36,6 +36,7 @@ Grasp은 조작의 진입점이고, 분포 커버리지는 cluttered·제약 환
 ## Related Papers
 
 - [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]] — 속도 축의 현 SOTA 주장. 계보 정리의 출처.
+- [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]] — 산업 배치 관점: 생성 모델(CGN)을 주 경로가 아닌 deadlock 해소용 fallback으로 쓴다. 산업 clutter에서 CGN GSR 45.6% (Tier A).
 
 ## Related Concepts
 
@@ -46,7 +47,7 @@ Grasp은 조작의 진입점이고, 분포 커버리지는 cluttered·제약 환
 
 ## Contradictions / Updates
 
-없음.
+- 2026-09-01: [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]] ingest로 보완 관점 추가. 이 축의 경쟁 지표를 '품질 vs 속도'로 정리했으나, 산업 bin picking 실기에서는 latency ~1s도 허용되는 반면 GSR(신뢰성)과 grasp depth 예측 부재가 실질 병목이었다. 속도 축의 가치는 closed-loop 재계획 시나리오에 조건부라는 점이 분명해졌다.
 
 ## Open Questions
 

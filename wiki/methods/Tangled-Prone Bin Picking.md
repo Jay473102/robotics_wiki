@@ -37,6 +37,7 @@ Tangled-prone bin picking은 무작위로 쌓인 물체가 서로 얽히는 상�
 ## Related Pages
 
 - [[2026-09-01 - Grasp Generation and Object Singulation]] - 이 축과 [[Generative Grasp Synthesis]] 축의 접점 정리.
+- [[Hierarchical Hybrid Bin-Picking]] - 상보적 실패 축: 그쪽은 deadlock(사전 grasp 부재), 이쪽은 얽힘이 병목이다. 해당 시스템은 얽힘 복수 파지 미검출을 명시적 한계로 남긴다.
 
 ## Open Questions
 

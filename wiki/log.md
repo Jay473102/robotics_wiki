@@ -12,6 +12,12 @@ sources: []
 
 append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.md`의 Logging Format을 따른다.
 
+## [2026-09-01] ingest | Picking Bins Empty hierarchical hybrid bin-picking
+
+- Input: `raw/papers/2608.28175v1.pdf` (arXiv:2608.28175v1, 2026-08-28, "Picking Bins Empty", Mercedes-Benz·KIT·DLR·Fraunhofer IAO). 환경 네트워크 정책이 arxiv.org를 차단해 사용자가 PDF를 직접 업로드했다.
+- Changed: source note [[2026-08-28 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]]과 paper 페이지 [[2026 - Picking Bins Empty Hierarchical Hybrid Bin-Picking]]을 추가했다. `wiki/methods/Hierarchical Hybrid Bin-Picking.md`, `wiki/concepts/Model-Based and Model-Free Grasping.md`를 신설했다. [[Generative Grasp Synthesis]]에 산업 배치 관점 업데이트, [[Tangled-Prone Bin Picking]]에 상보적 실패 축 링크, [[2026-09-01 - Grasp Generation and Object Singulation]]에 Updates 절(두 축 결합의 첫 Tier A 근거, 접점 2 반례 뉘앙스)을 추가했다. index를 갱신했다.
+- Notes: PDF 전문(8쪽)을 pypdf로 추출해 표 수치를 원문에서 확인했다. annotation 없음. venue 미표기(IEEE 양식·copyright 문구만 존재). 검증 필요: Level I backbone의 상용 시스템 식별(인용 [30]은 Roboception CADMatch 제품 페이지), 코드 공개 여부 미언급. 직전에 만든 synthesis의 "두 축을 잇는 Tier A/B 근거 없음" 서술이 이 ingest로 부분적으로 뒤집혀 해당 페이지에 갱신 기록을 남겼다. 날짜는 사용자 확인대로 KST 2026-09-01 기준.
+
 ## [2026-09-01] query | Grasp 생성 축과 singulation 축 연결
 
 - Input: 사용자가 "robotics_wiki에서 그래스핑 관련 내용 설명"을 요청한 뒤, 답변에서 지적한 두 축의 단절을 잇는 synthesis 페이지 작성을 지시했다. 근거 자료는 기존 위키 페이지들과 `raw/papers/2608.26076v1.pdf`, `raw/papers/2023 - Learning to Dexterously Pick or Separate Tangled-Prone Objects.pdf`.
