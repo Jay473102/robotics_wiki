@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-09-01
+updated: 2026-11-02
 tags:
   - index
   - robotics
@@ -27,6 +27,7 @@ sources: []
 
 ## Sources
 
+- [[2026-07-13 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation]] - 사용자 제공 v1 PDF의 출처, 주석 검사와 검증 범위.
 - [[2026-06-22 - AI-Based Robot Fault Diagnosis Chat]]
 - [[2026-06-15 - Amortized NeuralSDF KKT Explanation Chat]]
 - [[2026-06-21 - TE-SDF Learning Material]]
@@ -46,6 +47,7 @@ sources: []
 
 ## Papers
 
+- [[2026 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation]] - URDF 그래프 조건부 CFM으로 여러 다관절 손의 palm pose와 관절값을 직접 생성한다.
 - [[2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]] - neural SDF로 대응점 없이 point cloud를 정렬한다.
 - [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]] - MeanFlow를 SO(3)×R3에 정식화해 5 NFE 이하로 SOTA급 grasp을 생성한다 (GraspMF).
 - [[2026 - pi0.7 Steerable Generalist Robotic Foundation Model]]
@@ -87,7 +89,8 @@ sources: []
 - [[Point Cloud Registration]] - 두 point cloud를 정렬하는 문제와 그 강건성 축.
 - [[Flow Matching]] - velocity field 회귀로 분포를 운반하는 생성 모델 프레임워크. pi0 계열 action head의 기반.
 - [[MeanFlow]] - 구간 평균 속도를 학습해 1~수 스텝 생성을 얻는 few-step 프레임워크.
-- [[Generative Grasp Synthesis]] - SE(3) grasp 분포를 생성 모델로 학습하는 문제 영역.
+- [[Generative Grasp Synthesis]] - grasp pose와 다관절 손 구성의 분포를 생성 모델로 학습하는 문제 영역.
+- [[Cross-Embodiment Dexterous Grasping]] - 손 구조·관절 차원이 다른 경우의 grasp 표현과 일반화 평가 범위.
 
 ## Methods
 
@@ -101,6 +104,7 @@ sources: []
 - [[Tangled-Prone Bin Picking]]
 - [[SDFReg Point Cloud Registration]]
 - [[GraspMF Few-Step Grasp Generation]] - MeanFlow 기반 밀리초 단위 grasp pose 샘플링 절차.
+- [[GraspGraphNet Graph-Structured Grasp Generation]] - differentiable FK와 dynamic world edges를 결합한 palm+joint CFM 절차.
 
 ## Entities
 

@@ -2,13 +2,14 @@
 type: concept
 status: draft
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-11-02
 tags:
   - flow-matching
   - generative-models
   - amortized-optimization
 sources:
   - raw/papers/2608.26076v1.pdf
+  - raw/papers/2026 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation.pdf
   - https://arxiv.org/abs/2505.13447
 ---
 
@@ -20,7 +21,7 @@ Flow 기반 생성 모델에서 순간 속도 $v(x, t)$ 대신 시간 구간의 
 
 ## Why It Matters
 
-Diffusion·[[Flow Matching]]의 다단계 샘플링은 로봇의 반응형 closed-loop 실행과 양립하지 않는다. MeanFlow는 (1) teacher-free, simulation-free이고, (2) consistency/shortcut model과 달리 평균 속도라는 probability path의 잘 정의된 성질을 target으로 하므로 최적해가 네트워크와 무관하게 특성화되며, (3) 학습된 chord jump는 고정 스텝 Lie-Euler 적분의 truncation error를 갖지 않는다 — 잔차는 오직 근사 오차다.
+Diffusion·[[Flow Matching]]의 큰 NFE 예산은 로봇의 반응형 closed-loop 실행에서 계산 병목이 될 수 있다. MeanFlow는 (1) teacher-free, simulation-free이고, (2) consistency/shortcut model과 달리 평균 속도라는 probability path의 잘 정의된 성질을 target으로 하므로 최적해가 네트워크와 무관하게 특성화되며, (3) 학습된 chord jump는 고정 스텝 Lie-Euler 적분의 truncation error를 갖지 않는다 — 잔차는 오직 근사 오차다.
 
 ## Key Ideas
 
@@ -41,6 +42,7 @@ Diffusion·[[Flow Matching]]의 다단계 샘플링은 로봇의 반응형 close
 
 ## Contradictions / Updates
 
+- 2026-11-02: “다단계 Flow Matching은 closed-loop와 양립하지 않는다”는 기존 표현을 계산 예산의 문제로 한정했다. [[GraspGraphNet Graph-Structured Grasp Generation]]은 MeanFlow 없이 Euler 3스텝으로 grasp을 생성한다 (논문 Table VI). 다만 이 결과가 closed-loop 제어 전체의 성능을 검증한 것은 아니다.
 - 2026-09-01: manifold 위 MeanFlow의 목적 함수 설계에 경쟁 정식화가 있다. Zhong et al. (ICML 2026)은 covariant derivative 기반 decomposed objective를, Woo et al./GraspMF는 대수적 semigroup consistency를 쓴다. GraspMF ablation에서 전자가 SR −25pt로 열등했으나 저자 측 재현이므로 검증 필요.
 
 ## Open Questions

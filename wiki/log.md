@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-14
-updated: 2026-08-01
+updated: 2026-11-02
 tags:
   - log
 sources: []
@@ -125,3 +125,15 @@ append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.
 - Input: User requested a personal knowledge/know-how wiki for robotics and Physical AI, inspired by Karpathy's LLM Wiki idea.
 - Changed: Created raw source directories, wiki directories, index, metadata workflows, templates, ontology, and initial concept stubs.
 - Notes: The vault is configured as an Obsidian-friendly LLM-maintained wiki. Raw sources are immutable; `wiki/` is the maintained knowledge layer.
+
+## [2026-11-02] ingest | GraspGraphNet multi-embodiment dexterous grasp generation
+
+- Input: `raw/papers/2026 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation.pdf` (사용자 제공 `2607.11031v1.pdf`).
+- Changed: GraspGraphNet source note·논문 페이지·방법 페이지와 Cross-Embodiment Dexterous Grasping 개념 페이지를 추가했다. Flow Matching, Generative Grasp Synthesis, MeanFlow, GraspMF 방법 페이지와 `wiki/index.md`를 갱신했다.
+- Notes: 원본 PDF를 변경 없이 보존했다. 논문 표와 평가 조건을 대조하고, 시뮬레이션·손가락 제거 zero-shot·Leap Hand 미세조정 후 실물 결과를 구분했다. PDF 주석·하이라이트 확인 결과는 source note에 기록했다. Flow Matching의 추론 스텝 수에 관한 기존 설명은 GraspGraphNet의 3스텝 결과를 반영해 적용 범위와 변경 근거를 명시했다.
+
+## [2026-11-02] lint | GraspGraphNet ingest validation
+
+- Input: GraspGraphNet 관련 신규·갱신 문서와 원본 PDF.
+- Changed: Ingest 운영 로그를 보완했다.
+- Notes: `python3 wiki/_meta/lint.py` 기계 점검을 통과했다. 새 문서의 주요 수치·평가 범위·출처 연결을 원문과 대조했다.

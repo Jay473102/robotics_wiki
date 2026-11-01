@@ -2,7 +2,7 @@
 type: method
 status: active
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-11-02
 tags:
   - method
   - grasping
@@ -10,6 +10,7 @@ tags:
   - generative-models
 sources:
   - raw/papers/2608.26076v1.pdf
+  - raw/papers/2026 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation.pdf
 ---
 
 # GraspMF Few-Step Grasp Generation
@@ -66,6 +67,11 @@ Point cloud 조건부 grasp pose 분포를 product Lie group $G = SO(3) \times \
 - [[Flow Matching]] — depends-on: CFM anchor가 데이터 분포 고정에 필수다.
 - [[Generative Grasp Synthesis]] — 문제 영역.
 - [[Amortized NeuralSDF-Mesh Collision Detection]] — 반복 계산의 학습 기반 amortization이라는 공통 패턴.
+
+## Related Methods and Updates
+
+- 2026-11-02: [[GraspGraphNet Graph-Structured Grasp Generation]]은 다관절 손의 palm pose와 관절값을 URDF 그래프 조건부 CFM으로 생성하는 별도 접근이다. 이 방법의 MeanFlow 정식화를 확장한 것으로 해석하지 않는다. [[Cross-Embodiment Dexterous Grasping]]에서 표현과 일반화 범위를 비교한다.
+- GraspGraphNet의 40ms는 RTX 4090에서 grasp command 1개를 생성하는 평균이고, 위 GraspMF의 15.5ms는 RTX 5080에서 100개 배치 기준이다. 출력 차원·장비·배치·평가가 달라 직접적인 속도비나 성공률 우열을 계산하지 않는다 (각 논문 실험 설정).
 
 ## Open Questions
 
