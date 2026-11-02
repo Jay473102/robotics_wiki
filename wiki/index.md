@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-11-02
+updated: 2026-11-03
 tags:
   - index
   - robotics
@@ -27,6 +27,15 @@ sources: []
 
 ## Sources
 
+- [[2026-11-03 - Chat Quadruped Open Stair Learning]] - RBQ10 보행 대화의 질문·문헌·검증 범위.
+- [[2026-06-24 - StairMaster Source]] - 열린 계단 논문 v2와 저자 프로젝트.
+- [[2023-09-25 - Extreme Parkour Source]] - 엣지 회피 보상과 ICRA 발표 정보.
+- [[2023-06-26 - ANYmal Parkour Source]] - 계층형 구조와 supplementary 보상 표.
+- [[2024-09-29 - DreamWaQ++ Source]] - multimodal 입력과 style reward curriculum.
+- [[2025-02-14 - BeamDojo Source]] - 드문 발판의 지지 보상과 발 높이 항.
+- [[2026-09-24 - TactileStep Source]] - 촉각과 접촉 단계별 보상.
+- [[2024-08-25 - PIE Source]] - 비대칭 actor-critic과 명시·암묵 추정.
+- [[2026-03-03 - LF2WB Source]] - 전방 지각으로 후진을 지원하는 지형 기억.
 - [[2026-07-13 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation]] - 사용자 제공 v1 PDF의 출처, 주석 검사와 검증 범위.
 - [[2026-06-22 - AI-Based Robot Fault Diagnosis Chat]]
 - [[2026-06-15 - Amortized NeuralSDF KKT Explanation Chat]]
@@ -47,6 +56,14 @@ sources: []
 
 ## Papers
 
+- [[2026 - StairMaster Hollow Stair Locomotion]] - 열린 계단의 depth·공간 기억·hollow/edge 벌점.
+- [[2023 - Extreme Parkour with Legged Robots]] - 단일 지각 정책과 접촉 조건부 엣지 회피.
+- [[2023 - ANYmal Parkour]] - 여러 보행 기술을 선택하는 계층형 시스템과 동작 정규화.
+- [[2024 - DreamWaQ++ Multimodal Locomotion]] - 점군·고유감각 융합과 style reward 완화.
+- [[2025 - BeamDojo Sparse Foothold Locomotion]] - 휴머노이드 발바닥 중첩과 두 critic 학습.
+- [[2026 - TactileStep Sole Tactile Locomotion]] - 촉각 기반 착지 충격과 지지 품질 개선.
+- [[2024 - PIE Implicit-Explicit Parkour]] - 추정기와 PPO를 동시에 학습하는 4족 parkour.
+- [[2026 - Look Forward to Walk Backward]] - Delta-rule 기억으로 전방 시야 밖 후진 지형을 추정.
 - [[2026 - GraspGraphNet Graph-Structured Multi-Embodiment Dexterous Grasp Generation]] - URDF 그래프 조건부 CFM으로 여러 다관절 손의 palm pose와 관절값을 직접 생성한다.
 - [[2023 - SDFReg Learning Signed Distance Functions for Point Cloud Registration]] - neural SDF로 대응점 없이 point cloud를 정렬한다.
 - [[2026 - Fast Generative Grasping via Lie Group-Constrained MeanFlow]] - MeanFlow를 SO(3)×R3에 정식화해 5 NFE 이하로 SOTA급 grasp을 생성한다 (GraspMF).
@@ -66,6 +83,8 @@ sources: []
 
 ## Concepts
 
+- [[Perceptive Legged Locomotion]] - 보행 정책의 센서·특권 정보·행동·하위 PD 계약.
+- [[Terrain Memory for Legged Locomotion]] - 가려진 발판의 기억과 안전한 착지의 구분.
 - [[Embodied AI]] - 환경 안에서 지각, 추론, 행동을 결합하는 AI.
 - [[Physical AI]] - 물리 세계에서 작동하는 범용 지능과 로봇 시스템에 대한 넓은 축.
 - [[Vision-Language-Action Models]] - 시각, 언어, 행동을 연결하는 로봇 foundation model 계열.
@@ -94,6 +113,7 @@ sources: []
 
 ## Methods
 
+- [[Open Stair Reward Design and Evaluation]] - 엣지·발 높이·착지·지지·정체를 분리해 설계하고 평가하는 절차.
 - [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
 - [[Safe Diagnostic Trajectory Design]]
 - [[RECAP RL with Experience and Corrections]]
@@ -119,11 +139,14 @@ sources: []
 
 ## Syntheses
 
+- [[2026-11-03 - Quadruped Open Stair Learning and RBQ10]] - 핵심 문헌 6편·관련 2편 비교와 RBQ10 실험의 적용 한계.
 - [[2026-06-15 - Small-Motion Tool Inertia and Friction Fault Diagnosis]]
 - [[2026-06-15 - LG CNS PhysicalWorks]]
 
 ## Questions
 
+- [[2026-11-03 - Does Quadruped RL Need Depth Cameras]] - 학습 전용 지형과 실제 배포 지각 입력의 차이.
+- [[2026-11-03 - Why Does Memory Not Prevent Stair Edge Contacts]] - LSTM·출력 구조·접촉 보상의 역할과 진단 순서.
 - [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]
 - [[2026-06-22 - What Is the Difference Between pi0.6 and pi0.7]]
 - [[2026-06-22 - What Is the Relationship Between VLA and Reinforcement Learning]]

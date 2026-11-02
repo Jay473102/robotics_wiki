@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-14
-updated: 2026-11-02
+updated: 2026-11-03
 tags:
   - log
 sources: []
@@ -137,3 +137,15 @@ append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.
 - Input: GraspGraphNet 관련 신규·갱신 문서와 원본 PDF.
 - Changed: Ingest 운영 로그를 보완했다.
 - Notes: `python3 wiki/_meta/lint.py` 기계 점검을 통과했다. 새 문서의 주요 수치·평가 범위·출처 연결을 원문과 대조했다.
+
+## [2026-11-03] ingest | Quadruped open stair learning papers and RBQ10
+
+- Input: 현재 대화의 위키 정리 요청, RBQ10 `reports/literature-stairs-20261026-01/implementation.json`의 핵심 6편, `training/lf2wb/README.md`의 관련 2편, 버전을 고정한 arXiv 본문·서지 및 저자 프로젝트.
+- Changed: 논문 8편과 source note 8개, partial chat source 1개, 개념 2개, 보상 설계·평가 방법 1개, 질문 2개, 종합 1개를 추가했다. `wiki/index.md`, Embodied AI, Physical AI를 연결했다. 시작 문서는 [[2026-11-03 - Quadruped Open Stair Learning and RBQ10]]이다.
+- Notes: 논문 원문은 Tier A, 대화의 진단 가설은 Tier C로 구분했다. Humanoid 문헌 2편과 4족 문헌, 엣지 여유와 스윙 높이, 특권 학습 정보와 배포 actor 입력을 구분했다. 2026-10-27의 RBQ10 관측과 신규 보상 검증은 논문 결과와 분리했다. 원대화 export 미확보와 사용자 PDF annotation 미확인을 source note에 기록했다. 기존 raw 자료와 `.obsidian/`을 수정하지 않았으며 commit은 수행하지 않았다.
+
+## [2026-11-03] lint | Quadruped open stair literature validation
+
+- Input: 신규 문서 23개와 연결을 추가한 기존 문서 4개.
+- Changed: 문헌 정리 후 검증 결과를 운영 로그에 추가했다.
+- Notes: `python3 wiki/_meta/lint.py`와 `git diff --check`를 통과했다. 신규 문서의 출처·내부 링크·길이 및 목차의 섹션당 30항목 제한을 확인했다. 기존 raw 파일 22개의 SHA-256이 동일하며 기존 문서 본문에서 삭제·변경된 줄이 없음을 확인했다. 서지·보상 설명은 원문과, RBQ10 수치는 해당 실험 기록과 대조했다. 사용자 PDF 주석과 학습 후 성능은 이번 검증 범위에 포함하지 않았다.

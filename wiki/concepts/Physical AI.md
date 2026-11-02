@@ -2,13 +2,14 @@
 type: concept
 status: draft
 created: 2026-06-14
-updated: 2026-06-15
+updated: 2026-11-03
 tags:
   - physical-ai
   - robotics
 sources:
   - raw/notes/deep-research-report.md
   - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
+  - https://arxiv.org/html/2606.25765v2
 ---
 
 # Physical AI
@@ -35,3 +36,8 @@ Physical AI는 연구 논문뿐 아니라 하드웨어, 제조, 운영 데이터
 - Physical AI에서 foundation model의 스케일링 법칙은 어떤 데이터와 embodiment에 의해 제한되는가?
 - 실제 상용화의 병목은 모델 성능, 데이터, 하드웨어 비용, 안전, 운영 중 어디에 있는가?
 - Deformable object manipulation처럼 simulator fidelity와 metric 표준화가 약한 영역에서 Physical AI의 일반화 성능을 어떻게 평가해야 하는가?
+
+## 보행과 센서 기반 제어
+
+- [[Perceptive Legged Locomotion]] — 실제 센서 입력과 학습 전용 정보를 구분하는 사례.
+- [[2026-11-03 - Quadruped Open Stair Learning and RBQ10]] — 로봇 형태·센서·접촉 형상이 학습 결과에 미치는 영향을 검토하는 문헌 묶음.
