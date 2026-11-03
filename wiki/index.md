@@ -27,6 +27,7 @@ sources: []
 
 ## Sources
 
+- [[2026-10-09 - AlphaNIST Source]] - 공식 v1 PDF, 주석 검사, simulation 결과와 공개 범위.
 - [[2026-11-03 - Chat Quadruped Open Stair Learning]] - RBQ10 보행 대화의 질문·문헌·검증 범위.
 - [[2026-06-24 - StairMaster Source]] - 열린 계단 논문 v2와 저자 프로젝트.
 - [[2023-09-25 - Extreme Parkour Source]] - 엣지 회피 보상과 ICRA 발표 정보.
@@ -56,6 +57,7 @@ sources: []
 
 ## Papers
 
+- [[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]] - diverse resets·SGS·PPO로 학습한 다중 과제 조립과 binary reward의 조건.
 - [[2026 - StairMaster Hollow Stair Locomotion]] - 열린 계단의 depth·공간 기억·hollow/edge 벌점.
 - [[2023 - Extreme Parkour with Legged Robots]] - 단일 지각 정책과 접촉 조건부 엣지 회피.
 - [[2023 - ANYmal Parkour]] - 여러 보행 기술을 선택하는 계층형 시스템과 동작 정규화.
@@ -83,6 +85,7 @@ sources: []
 
 ## Concepts
 
+- [[Reset-State Curricula for Sparse-Reward RL]] - 초기 상태 coverage·sampling·완료 목표를 분리하는 학습 설계.
 - [[Perceptive Legged Locomotion]] - 보행 정책의 센서·특권 정보·행동·하위 PD 계약.
 - [[Terrain Memory for Legged Locomotion]] - 가려진 발판의 기억과 안전한 착지의 구분.
 - [[Embodied AI]] - 환경 안에서 지각, 추론, 행동을 결합하는 AI.
@@ -113,6 +116,7 @@ sources: []
 
 ## Methods
 
+- [[AlphaNIST Binary-Reward Assembly]] - reset bank, beta sampling, 완료 보상과 제어 비용을 결합한 PPO 조립 절차.
 - [[Open Stair Reward Design and Evaluation]] - 엣지·발 높이·착지·지지·정체를 분리해 설계하고 평가하는 절차.
 - [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
 - [[Safe Diagnostic Trajectory Design]]
@@ -133,6 +137,7 @@ sources: []
 
 ## Benchmarks
 
+- [[NIST Assembly Task Board 1]] - 20개 assembly pair와 single-pair·multi-pair·실물 평가의 구분.
 - [[ModelNet40]] - 합성 CAD shape 기반 registration benchmark. cross-category 일반화 측정.
 - [[3DMatch]] - Kinect 실내 RGB-D scan 기반 실 데이터 registration benchmark.
 - [[ACRONYM]] - 시뮬레이션 기반 대규모 parallel-jaw grasp 데이터셋. SE(3) grasp 생성 연구의 표준.
@@ -145,6 +150,7 @@ sources: []
 
 ## Questions
 
+- [[2026-11-03 - When Can Binary Rewards Replace Dense Shaping]] - AlphaNIST의 조건과 보행 보상 설계로의 적용 한계.
 - [[2026-11-03 - Does Quadruped RL Need Depth Cameras]] - 학습 전용 지형과 실제 배포 지각 입력의 차이.
 - [[2026-11-03 - Why Does Memory Not Prevent Stair Edge Contacts]] - LSTM·출력 구조·접촉 보상의 역할과 진단 순서.
 - [[2026-08-01 - Can One SDF Representation Serve Perception and Contact]]

@@ -149,3 +149,15 @@ append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.
 - Input: 신규 문서 23개와 연결을 추가한 기존 문서 4개.
 - Changed: 문헌 정리 후 검증 결과를 운영 로그에 추가했다.
 - Notes: `python3 wiki/_meta/lint.py`와 `git diff --check`를 통과했다. 신규 문서의 출처·내부 링크·길이 및 목차의 섹션당 30항목 제한을 확인했다. 기존 raw 파일 22개의 SHA-256이 동일하며 기존 문서 본문에서 삭제·변경된 줄이 없음을 확인했다. 서지·보상 설명은 원문과, RBQ10 수치는 해당 실험 기록과 대조했다. 사용자 PDF 주석과 학습 후 성능은 이번 검증 범위에 포함하지 않았다.
+
+## [2026-11-03] ingest | AlphaNIST binary-reward assembly
+
+- Input: 사용자가 지정한 `https://alpha-nist.github.io/` 및 arXiv:2610.13354v1 (2026-10-09), `raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf`.
+- Changed: 원본 PDF를 보존하고 [[2026-10-09 - AlphaNIST Source]], [[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]], [[AlphaNIST Binary-Reward Assembly]], [[Reset-State Curricula for Sparse-Reward RL]], [[NIST Assembly Task Board 1]], [[2026-11-03 - When Can Binary Rewards Replace Dense Shaping]]를 추가했다. Physical AI, Object Singulation, RECAP, Open Stair Reward Design and Evaluation에 관련 내용을 연결하고 index를 갱신했다.
+- Notes: 공식 v1 PDF 8쪽을 읽고 주요 수식·결과를 검토했다. 압축 PDF 객체를 포함한 annotation 확인에서 Link 81개, 필기·하이라이트 subtype 없음으로 확인했다. 98.2% 학습 성공, frozen mixed-reset 평가, 별도 10-pair 정책의 84%를 구분했다. 완료 task reward 외 제어 비용, simulation-only 범위, 실물·전체 20-pair 조립의 미검증 상태를 명시했다. 보행으로의 적용은 추론과 실험 질문으로 표시했다. PDF는 바이너리 파일로 Git에 포함하며 원본 checksum을 source note에 남겼다.
+
+## [2026-11-03] lint | AlphaNIST ingest validation
+
+- Input: AlphaNIST 관련 신규·갱신 문서 및 원본 PDF.
+- Changed: Frontmatter·날짜·출처·상호 링크·index 등재와 평가 조건을 점검했다.
+- Notes: `python3 wiki/_meta/lint.py`와 `git diff --check`를 통과했다. 별도 내용 검토에서 주요 수치와 평가 범위의 중요한 오류를 발견하지 못했다. Source note의 파일 크기·SHA-256을 저장된 PDF와 대조했다. Obsidian 설정은 이번 작업 범위에 포함하지 않는다.

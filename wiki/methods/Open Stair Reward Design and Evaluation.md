@@ -11,6 +11,7 @@ sources:
   - https://arxiv.org/html/2409.19709v2
   - https://arxiv.org/html/2502.10363v3
   - https://arxiv.org/html/2609.28959v1
+  - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
 ---
 
 # Open Stair Reward Design and Evaluation
@@ -70,6 +71,14 @@ sources:
 
 ## 연결
 
+- [[2026-11-03 - When Can Binary Rewards Replace Dense Shaping]] — 조립에서 완료 보상 기반 학습이 성립한 조건과 RBQ10 적용 시 검증할 항목.
+- [[Reset-State Curricula for Sparse-Reward RL]] — 초기 상태의 범위와 연습 빈도를 보상 설계와 분리하는 관점.
 - [[2026-11-03 - Quadruped Open Stair Learning and RBQ10]] — 문헌과 실험 맥락.
 - [[Perceptive Legged Locomotion]], [[Terrain Memory for Legged Locomotion]] — 관측과 기억의 전제.
 - [[index]] — 전체 카탈로그.
+
+## 2026-11-03 보강 — AlphaNIST와 비교할 때
+
+[[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]]는 조립 완료 보상에 제어 비용을 더하고, 부분 조립 상태까지 포함하는 reset bank와 성공률 기반 sampling으로 PPO를 학습했다. 논문이 시험한 reach/alignment shaping보다 높은 성공을 보고하지만, 모든 결과는 조립 simulation이다 (§IV–VI).
+
+추론: 보행에서는 reward·reset coverage·sampling을 분리해 비교하고, 중간 reset의 성공과 바닥에서 시작한 전체 계단 완주를 따로 측정하는 관점이 유용하다. 이 결과가 현재의 발판 접촉·지지·착지 비용을 제거하라는 근거는 아니며, 기존 보행 설계의 대체가 아닌 실험 질문으로 기록한다.

@@ -10,6 +10,7 @@ sources:
   - raw/notes/deep-research-report.md
   - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
   - https://arxiv.org/html/2606.25765v2
+  - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
 ---
 
 # Physical AI
@@ -41,3 +42,10 @@ Physical AI는 연구 논문뿐 아니라 하드웨어, 제조, 운영 데이터
 
 - [[Perceptive Legged Locomotion]] — 실제 센서 입력과 학습 전용 정보를 구분하는 사례.
 - [[2026-11-03 - Quadruped Open Stair Learning and RBQ10]] — 로봇 형태·센서·접촉 형상이 학습 결과에 미치는 영향을 검토하는 문헌 묶음.
+
+## 접촉이 많은 조립과 학습 초기화
+
+- [[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]] — 완료 목표를 공유하는 여러 조립 과제의 simulation PPO 사례. 실물 성능은 아직 검증 대상이다.
+- [[AlphaNIST Binary-Reward Assembly]] — reset 상태·sampling·제어 비용을 포함하는 학습 절차.
+- [[Reset-State Curricula for Sparse-Reward RL]] — 유용한 경험을 만들기 위한 초기 상태 설계. 시범 행동을 주지 않아도 simulator·목표·초기화에 대한 사전 정보는 필요하다.
+- [[NIST Assembly Task Board 1]] — 같은 보드에서도 단일 부품·여러 부품·실물이라는 평가 범위를 구분해야 한다.

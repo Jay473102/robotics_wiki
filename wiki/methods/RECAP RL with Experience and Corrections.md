@@ -2,7 +2,7 @@
 type: method
 status: draft
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-03
 tags:
   - reinforcement-learning
   - vla
@@ -10,6 +10,7 @@ tags:
   - advantage-conditioning
 sources:
   - raw/papers/2025 - pi0.6 a VLA That Learns From Experience.pdf
+  - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
 ---
 
 # RECAP RL with Experience and Corrections
@@ -50,3 +51,4 @@ VLA를 실제 배포 task에서 개선하려면 demonstration만으로는 부족
 - [[Vision-Language-Action Models]]
 - [[Robot Foundation Models]]
 - [[Context-Conditioned Robot Foundation Models]]
+- [[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]] — 비교: pretrained VLA를 시범·경험·개입으로 개선하는 RECAP과 달리, reset bank와 simulation PPO로 조립 정책을 처음부터 학습한다. 학습 전제가 다르므로 성공률을 직접 비교하지 않는다.
