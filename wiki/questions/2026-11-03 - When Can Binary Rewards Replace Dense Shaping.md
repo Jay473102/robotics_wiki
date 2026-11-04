@@ -2,11 +2,12 @@
 type: question
 status: active
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-05
 tags: [question, reinforcement-learning, robot-learning, manipulation]
 sources:
   - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
   - https://arxiv.org/html/2610.13354v1
+  - raw/papers/2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning.pdf
 ---
 
 # When Can Binary Rewards Replace Dense Shaping
@@ -51,3 +52,9 @@ sources:
 ## Important Caveats
 
 논문은 시뮬레이션 결과다. 98.2% 학습 성공, frozen mixed-reset 평가, 별도 10-pair 정책의 84% 성공을 하나의 공통 성능 지표로 합치지 않는다. dense baseline도 특정 두 shaping 항과 고정 계수에 국한된다.
+
+## Update — 지속 유지가 목표인 PolicyIK
+
+2026-11-05: [[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]]은 dense tracking·progress와 tolerance 안의 dwell reward를 함께 사용한다. 성공 직후 종료하지 않으며, dwell 제거 시 허용 오차에 진입한 task 중 마지막 1초 containment에 실패한 비율이 2.4%에서 7.8%로 증가했다 (§4.3, §5.1.2, Table 7; Tier A).
+
+추론: 이는 AlphaNIST의 조건부 결론을 뒤집기보다 **한 번의 과제 완료와 지속적인 pose 유지의 목표 차이**를 추가한다. 보상 선택을 비교할 때 종료 조건과 유지 시간을 같이 통제해야 한다. [[PolicyIK Joint-Reference Control]]과 [[2026-11-05 - How Should Pose Reaching and Holding Be Evaluated]]에 방법·지표를 정리했다.

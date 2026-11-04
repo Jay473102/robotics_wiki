@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-14
-updated: 2026-11-03
+updated: 2026-11-05
 tags:
   - index
   - robotics
@@ -27,6 +27,7 @@ sources: []
 
 ## Sources
 
+- [[2026-11-03 - PolicyIK Source]] - v1 원본·공식 코드·실물 계측과 검증 범위.
 - [[2026-10-09 - AlphaNIST Source]] - 공식 v1 PDF, 주석 검사, simulation 결과와 공개 범위.
 - [[2026-11-03 - Chat Quadruped Open Stair Learning]] - RBQ10 보행 대화의 질문·문헌·검증 범위.
 - [[2026-06-24 - StairMaster Source]] - 열린 계단 논문 v2와 저자 프로젝트.
@@ -57,6 +58,7 @@ sources: []
 
 ## Papers
 
+- [[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]] - 누적 reference·정밀 오차·dwell reward로 학습하는 팔 pose 제어.
 - [[2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards]] - diverse resets·SGS·PPO로 학습한 다중 과제 조립과 binary reward의 조건.
 - [[2026 - StairMaster Hollow Stair Locomotion]] - 열린 계단의 depth·공간 기억·hollow/edge 벌점.
 - [[2023 - Extreme Parkour with Legged Robots]] - 단일 지각 정책과 접촉 조건부 엣지 회피.
@@ -85,6 +87,7 @@ sources: []
 
 ## Concepts
 
+- [[Learned Closed-Loop Inverse Kinematics]] - servo 명령 상태와 도달 후 유지를 포함하는 학습형 IK.
 - [[Reset-State Curricula for Sparse-Reward RL]] - 초기 상태 coverage·sampling·완료 목표를 분리하는 학습 설계.
 - [[Perceptive Legged Locomotion]] - 보행 정책의 센서·특권 정보·행동·하위 PD 계약.
 - [[Terrain Memory for Legged Locomotion]] - 가려진 발판의 기억과 안전한 착지의 구분.
@@ -116,6 +119,7 @@ sources: []
 
 ## Methods
 
+- [[PolicyIK Joint-Reference Control]] - command-state feedback, multiscale error, gain과 dense reward의 구현.
 - [[AlphaNIST Binary-Reward Assembly]] - reset bank, beta sampling, 완료 보상과 제어 비용을 결합한 PPO 조립 절차.
 - [[Open Stair Reward Design and Evaluation]] - 엣지·발 높이·착지·지지·정체를 분리해 설계하고 평가하는 절차.
 - [[Physics-Informed Neural Posterior Estimation for Robot Fault Diagnosis]]
@@ -150,6 +154,7 @@ sources: []
 
 ## Questions
 
+- [[2026-11-05 - How Should Pose Reaching and Holding Be Evaluated]] - 평균 오차·구간 유지·재시도·FK와 외부 계측의 구분.
 - [[2026-11-03 - When Can Binary Rewards Replace Dense Shaping]] - AlphaNIST의 조건과 보행 보상 설계로의 적용 한계.
 - [[2026-11-03 - Does Quadruped RL Need Depth Cameras]] - 학습 전용 지형과 실제 배포 지각 입력의 차이.
 - [[2026-11-03 - Why Does Memory Not Prevent Stair Edge Contacts]] - LSTM·출력 구조·접촉 보상의 역할과 진단 순서.

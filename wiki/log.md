@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-14
-updated: 2026-11-03
+updated: 2026-11-05
 tags:
   - log
 sources: []
@@ -161,3 +161,15 @@ append-only 운영 로그다. 최신 항목이 위에 온다. 형식은 `AGENTS.
 - Input: AlphaNIST 관련 신규·갱신 문서 및 원본 PDF.
 - Changed: Frontmatter·날짜·출처·상호 링크·index 등재와 평가 조건을 점검했다.
 - Notes: `python3 wiki/_meta/lint.py`와 `git diff --check`를 통과했다. 별도 내용 검토에서 주요 수치와 평가 범위의 중요한 오류를 발견하지 못했다. Source note의 파일 크기·SHA-256을 저장된 PDF와 대조했다. Obsidian 설정은 이번 작업 범위에 포함하지 않는다.
+
+## [2026-11-05] ingest | PolicyIK precision reaching and holding
+
+- Input: 사용자가 지정한 `https://arxiv.org/pdf/2611.05372`, 버전을 고정한 arXiv:2611.05372v1 (2026-11-03), 공식 프로젝트와 코드 문서.
+- Changed: 원본 PDF를 보존하고 [[2026-11-03 - PolicyIK Source]], [[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]], [[PolicyIK Joint-Reference Control]], [[Learned Closed-Loop Inverse Kinematics]], [[2026-11-05 - How Should Pose Reaching and Holding Be Evaluated]]를 추가했다. VLA, Physical AI, reset curriculum, AlphaNIST 방법과 binary reward 질문에 연결하고 index를 갱신했다.
+- Notes: 29쪽 v1의 방법·표·appendix를 검토했다. 압축 PDF 객체 stream 10개를 포함한 annotation 검사에서 Link 371개를 찾았고 필기·강조 subtype은 발견하지 못했다. 단일 시도 93.49%와 재시도 포함 98.92%, simulation 평균 오차와 containment, OpenArm reaching 54/60과 holding 43/60을 구분했다. 실물 encoder+FK 측정, 직접 실물 학습과 scripted demo, xArm7 재학습·baseline 비교 범위를 명시했다. 공개 코드 문서는 확인했지만 재현 실험은 수행하지 않았다. 원본 checksum은 source note에 남겼다.
+
+## [2026-11-05] lint | PolicyIK ingest validation
+
+- Input: PolicyIK 신규 문서 5개·원본 PDF와 연결을 보강한 기존 문서 7개.
+- Changed: Frontmatter·날짜·출처·상호 링크·index 등재와 주요 실험 조건을 점검했다.
+- Notes: `python3 wiki/_meta/lint.py`와 `git diff --check`를 통과했다. 별도 원문 검토를 반영해 실물 40초 기록 안의 15·25초 budget 및 20–25초 holding 구간을 명확히 하고 appendix 인용을 보정했다. 원본 SHA-256 일치, 기존 지식·log 본문의 보존, index 섹션당 30항목 이하를 확인했다. `.obsidian/`의 기존 변경은 커밋 대상에서 제외한다.

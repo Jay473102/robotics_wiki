@@ -2,7 +2,7 @@
 type: method
 status: active
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-05
 tags:
   - method
   - reinforcement-learning
@@ -13,6 +13,7 @@ sources:
   - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
   - https://arxiv.org/html/2610.13354v1
   - https://alpha-nist.github.io/
+  - raw/papers/2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning.pdf
 ---
 
 # AlphaNIST Binary-Reward Assembly
@@ -88,3 +89,9 @@ $$
 - Reset bank에 없는 시작 상태·새 geometry·sensor point cloud에서도 성능을 유지하는가?
 - Reset 생성 비용까지 포함하면 task 추가의 engineering 비용은 얼마나 감소하는가?
 - 같은 interaction budget에서 bank coverage와 adaptive sampling의 기여를 어떻게 분리할 것인가?
+
+## PolicyIK와의 목적·종료 조건 비교
+
+[[PolicyIK Joint-Reference Control]]은 dense tracking·progress·dwell reward를 함께 쓰고, 허용 오차에 진입해도 종료하지 않아 지속 유지를 학습한다. AlphaNIST의 단일 pair 완료 시 1회 보상·종료와는 목적과 종료 조건이 다르다 ([[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]], §4.3, Eq. (7); AlphaNIST §IV-C).
+
+추론: 두 결과는 특정 과제의 학습·평가 설계 사례로 비교해야 한다. 어느 한쪽만으로 모든 조작에서 sparse 또는 dense reward가 우월하다고 판단할 수 없다. [[2026-11-03 - When Can Binary Rewards Replace Dense Shaping]]에 이 구분을 연결했다.

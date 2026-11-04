@@ -2,15 +2,17 @@
 type: concept
 status: draft
 created: 2026-06-14
-updated: 2026-11-03
+updated: 2026-11-05
 tags:
   - physical-ai
   - robotics
+  - robot-learning
 sources:
   - raw/notes/deep-research-report.md
   - raw/papers/2026 - Deep Learning-Based Robotic Cloth Manipulation Applications.pdf
   - https://arxiv.org/html/2606.25765v2
   - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
+  - raw/papers/2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning.pdf
 ---
 
 # Physical AI
@@ -49,3 +51,9 @@ Physical AI는 연구 논문뿐 아니라 하드웨어, 제조, 운영 데이터
 - [[AlphaNIST Binary-Reward Assembly]] — reset 상태·sampling·제어 비용을 포함하는 학습 절차.
 - [[Reset-State Curricula for Sparse-Reward RL]] — 유용한 경험을 만들기 위한 초기 상태 설계. 시범 행동을 주지 않아도 simulator·목표·초기화에 대한 사전 정보는 필요하다.
 - [[NIST Assembly Task Board 1]] — 같은 보드에서도 단일 부품·여러 부품·실물이라는 평가 범위를 구분해야 한다.
+
+## 정밀 pose 제어와 실물 계측
+
+- [[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]] — 정밀하게 도달한 뒤 유지하는 학습형 팔 제어 사례. OpenArm에서는 직접 실물 학습하며 encoder+FK 기준으로 평가한다 (§5.2, Table 3).
+- [[Learned Closed-Loop Inverse Kinematics]] — 관절 명령의 내부 상태와 servo dynamics를 포함한 pose 제어 개념.
+- [[2026-11-05 - How Should Pose Reaching and Holding Be Evaluated]] — 도달·평균 오차·지속 유지, FK와 외부 계측 정확도의 구분.

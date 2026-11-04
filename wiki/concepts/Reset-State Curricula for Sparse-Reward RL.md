@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-05
 tags:
   - reinforcement-learning
   - robot-learning
@@ -12,6 +12,7 @@ sources:
   - raw/papers/2026 - AlphaNIST Emergent Assembly Skills from Binary Task Rewards.pdf
   - https://arxiv.org/html/2610.13354v1
   - https://alpha-nist.github.io/
+  - raw/papers/2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning.pdf
 ---
 
 # Reset-State Curricula for Sparse-Reward RL
@@ -93,3 +94,9 @@ AlphaNIST scaling 평가는 학습 중 sampling weight를 그대로 쓰지 않�
 - Reset 생성·검증 비용과 학습 GPU 비용을 함께 계량하면 어느 부분이 병목인가?
 - Near-goal 상태의 학습이 loose-start 전체 작업으로 연결되지 않을 때 무엇을 바꿔야 하는가?
 - 평가 bank와 학습 bank의 중복, 새로운 geometry, 실제 시작 분포를 어떻게 분리해 보고할 것인가?
+
+## PolicyIK의 near-goal curriculum과 비교
+
+[[PolicyIK Joint-Reference Control]]의 OpenArm 실물 학습은 목표 근처 시작에서 범위를 넓히는 reverse curriculum과 near-goal replay를 사용한다. 하지만 dense tracking·progress·dwell reward 및 scripted demonstration replay도 함께 쓴다. Demo 150과제·22,500 transitions에서 batch의 25%를 가져오므로 AlphaNIST의 demonstration-free reset bank와 동일한 조건이 아니다 ([[2026 - PolicyIK High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning]], §4.5, Appendix H; Tier A).
+
+추론: 성공 근처 경험을 늘리는 학습 분포 설계는 sparse-only objective에만 쓰이는 기법이 아니다. Reset 분포·replay 분포·시범 데이터·보상 목적을 따로 기록해야 각 요소의 기여를 해석할 수 있다. 도달과 지속 유지의 평가 차이는 [[2026-11-05 - How Should Pose Reaching and Holding Be Evaluated]]를 참고한다.
